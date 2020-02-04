@@ -2,10 +2,12 @@ import i18nKeyValues from "./i18n.js";
 const i18nElements = document.querySelectorAll('[data-i18n]');
 const langSelector = document.getElementById("lang-selector");
 const headerHome = document.getElementById("header-home");
+const collapsers = document.getElementsByClassName("collapser");
 const sections = {
     "home" : document.getElementById("home"),
-    "education" : document.getElementById("education"),
     "experience" : document.getElementById("experience"),
+    "education" : document.getElementById("education"),
+    "skills" : document.getElementById("skills"),
     "projects" : document.getElementById("projects")
 };
 const defaultLanguage = "en";
@@ -18,17 +20,18 @@ const languageList = {
 const switchSectionTime = 500;
 const switchLanguageTime = 500;
 const switchTabTime = 250;
+const collapserTime = 250;
 
 let changingPath = false;
 
-document.body.setAttribute("style", `--switch-section-time: ${switchSectionTime}ms; --switch-language-time: ${switchLanguageTime}ms; --switch-tab-time: ${switchTabTime}ms`);
+document.body.setAttribute("style", `--switch-section-time: ${switchSectionTime}ms; --switch-language-time: ${switchLanguageTime}ms; --switch-tab-time: ${switchTabTime}ms; --collapser-time: ${collapserTime}ms`);
 
 window.navigate = (path) => {
     let currentPath = document.body.classList[0];
     if(!changingPath){
         if(currentPath != path){
             changingPath = true;
-            document.body.classList.remove("home", "education", "experience", "projects");
+            document.body.classList.remove("home", "experience", "education", "skills", "projects");
             if(path == "home"){
                 headerHome.classList.add("home");
                 sections[path].classList.remove("hide");
@@ -96,4 +99,27 @@ const startLangSelector = () => {
     }
 }
 
+const startCollapsers = () => {
+    for(let collapser of collapsers){
+        let collapsable = collapser.nextElementSibling;
+        collapser.onclick = () => {
+            if(collapsable.classList.contains("collapsed")){
+                collapsable.classList.remove("collapsed");
+                collapser.classList.add("rotate");
+            }
+            else {
+                collapsable.classList.add("collapsed");
+                collapser.classList.remove("rotate");
+            }
+        }
+        if(collapsable.classList.contains("collapsed")){
+            collapser.classList.remove("rotate");
+        }
+        else {
+            collapser.classList.add("rotate");
+        }
+        
+    }
+}
 startLangSelector();
+startCollapsers();

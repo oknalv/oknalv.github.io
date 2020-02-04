@@ -5,17 +5,23 @@ const i18nKeyValues = {
         "fr": "Ingénieur logiciel",
         "gl": "Enxeñeiro de software"
     },
+    "experience": {
+        "en": "Work experience",
+        "es": "Experiencia profesional",
+        "fr": "Expériences professionnelles",
+        "gl": "Experiencia profesional"
+    },
     "education": {
         "en": "Education",
         "es": "Educación",
         "fr": "Formation",
         "gl": "Educación"
     },
-    "experience": {
-        "en": "Work experience",
-        "es": "Experiencia profesional",
-        "fr": "Expériences professionnelles",
-        "gl": "Experiencia profesional"
+    "skills": {
+        "en": "Skills",
+        "es": "Habilidades",
+        "fr": "Compétences",
+        "gl": "Habilidades"
     },
     "projects": {
         "en": "Personal projects",
@@ -24,7 +30,10 @@ const i18nKeyValues = {
         "gl": "Proxectos persoais"
     },
     "home-text": {
-        "en": "Hello, my name is Eliot and I am a Spanish software engineer specialized in web development and the purpose of this page is to show you a little bit about me. Something to start with: I like programming, languages, comic books and cooking among other interesting things, but I suppose that you are not here to know this trivia about me and I am not here trying to convince you how cool my hobbies are, I suppose that you are here because you are considering to hire me so I invite you to check more relevant information about me in the different sections of this page by clicking on the titles down here."
+        "en": "Hello, my name is Eliot and I am a Spanish software engineer specialized in web development and the purpose of this page is to show you a little bit about me. Something to start with: I like programming, languages, comic books and cooking among other interesting things, but I suppose that you are not here to know this trivia and I haven't done this page to convince you how cool my hobbies are. I suppose that you are here because you are considering hiring me so I invite you to check more relevant information about me in the different sections of this page by clicking on the titles below.",
+        "es": "Hola, me llamo Eliot y soy un ingeniero de software español especializado en desarrollo web y el objetivo de esta página es mostraros un poco sobre mí. Algo con lo que empezar: me gusta programar, los idiomas, los cómics y cocinar entre otras cosas interesantes, pero supongo que no estáis aquí para saber estas cosas triviales y yo no he heco esta página para convenceros de cómo molan mis aficiones. Supongo que estáis aquí porque estáis considerando contratarme así que os invito a echarle un ojo a información sobre mí más relevante en las diferentes secciones de esta página haciendo click en los títulos de abajo.",
+        "fr": "Salut, je m'appelle Eliot et je suis un ingénieur logiciel spécialisé dans le développement web et le but de cette page est vous montrer un petit peu de moi. Pour commencer: j'aime programmer, les langues, les bandes dessinées et cuisiner entre autres choses intéressantes, mais je suppose que vous n'êtes pas ici pour savoir cettes choses triviales et je n'ai pas fait cette page pour vous convaincre que mes hobbies sont très cool. Je suppose que vous êtes ici parce que vous envisagez de me recruter donc je vous invite à consulter des informations sur moi plus pertinentes dans les différentes sections de cette page en cliquant sur les titres ci-dessous.",
+        "gl": "Ola, chámome Eliot e sou un enxeñeiro de software español especializado en desenvolvemento web e o obxectivo desta páxina é amosarvos un pouco sobre min. Algo co que comezar: gústame programar, as linguas, os cómics e cociñar entre outras cousas interesantes, pero supoño que non estades aquí para saber estas cousas triviais e eu non fixen esta páxina para convencervos de como molan as miñas aficións. Supoño que estades aquí porque estades considerando contratarme así que vos invito a botarlle un ollo a información sobre min máis relevante nas diferentes seccións desta páxina facendo click nos títulos de abaixo."
     },
     "france": {
         "en": "France",
@@ -54,7 +63,7 @@ const i18nKeyValues = {
         "en": "Development of a web server from scratch, using Python, connected to a proof of concept of an autonomous car which retrieves data from its sensors. Its purpose is to serve this data to a later development of a web interface to display it in a human friendly way.",
         "es": "Desarrollo de un servidor web desde cero, usando Python, conectado a una prueba de concepto de un coche autónomo que envía datos de sus sensores. Su propósito es servir esos datos a una implementación posterior de una interfaz web para mostrarlos de una manera más legible para el ser humano.",
         "fr": "Développement d'un serveur web à partir de zéro, en utilisant Python, qui est connecté à une preuve de concept d'une voiture autonome qui envoie des données de ses capteurs. Le but est de servir ces données pour développer une interface web afin de les montrer d'une façon plus simple et conviviale pour les analyser.",
-        "gl": "Desenvolvemento dun servidor web desde cero, empregando Python, conectado a unha proba de concepto dun coche autónomo que envía datos dos seus sensores. O seu propósito é servir eses datos a unha implementación posterior dunha interface web para mostralos dunha maneira máis lexible para o ser humano."
+        "gl": "Desenvolvemento dun servidor web desde cero, empregando Python, conectado a unha proba de concepto dun coche autónomo que envía datos dos seus sensores. O seu propósito é servir eses datos a unha implementación posterior dunha interface web para amosalos dunha maneira máis lexible para o ser humano."
     },
     "akka-2": {
         "en": "Development of a web platform from scratch for the management of the projects' data of one of the departments of the company, developed using Angular and Angular Material in the front end, and Node.js, Express and TypeScript in the back end. The database is in MySQL. The methodology used for this project is Scrum in a distributed team.",
@@ -69,7 +78,10 @@ const i18nKeyValues = {
         "gl": "Desenvolvemento dun programa para o cliente Acore que se comunica cun autómata programable que controla rectificadores. O programa está desenvolvido en C# empregando WPF e Entity Framework con MySQL."
     },
     "akkademy": {
-        "en": "Before starting to work in France, I spent a moth (the month of August) in a training program called The Akkademy and conducted by Akka Switzerland in Geneva. The training was about improving soft skills with around 70 people from different parts of Europe and the working language was English. After that month, I was sent to Akka France in Lyon with several of my colleagues from Geneva."
+        "en": "Before starting to work in Lyon, I spent a month (the month of August) in a training program called The Akkademy and conducted by Akka Switzerland in Geneva. The training consisted in the improvement soft skills with around 70 people from different parts of Europe and the working language was English. After that month, I was sent to Akka France in Lyon with several of my colleagues from Geneva.",
+        "es": "Antes de empezar a trabajar en Lyon, estuve durante un (el mes de agosto) en un programa de formación llamado The Akkadey y llevado a cabo por Akka Suiza en Ginebra. La formación consistía en la mejora de soft skills con alrededor de 70 personas de diferentes partes de Europa y el idioma de trabajo fue el inglés. Después de ese mes, me enviaron a Akka Francia en Lyon con varios de mis compañero de Ginebra.",
+        "fr": "Avant de commencer à travailler à Lyon, j'ai passé un mois (le mois d'août) dans un programme de formation appelé The Akkademy et réalisé par Akka Suisse à Genève. La formatión consistait à améliorer les soft skills avec environ 70 personnes de différentes régions d'Europe et la langue de travail était l'anglais. Après ce mois, j'ai été envoyé à Akka France à Lyon avec plusieurs de mes collègues de Genève.",
+        "gl": "Antes de comezar a traballar en Lión, estiven durante un mes (o mes de agosto) nun programa de formación chamado The Akkademy e levado a cabo por Akka Suíza en Xenebra. A formación consistía na mellora de soft skills con ó redor de 70 persoas de diferentes partes de Europa e a lingua de traballo foi o inglés. Despois dese mes, enviáronme a Akka Francia en Lión con vairos dos meus compañeiros de Xenebra."
     },
     "note": {
         "en": "Note:",
@@ -112,6 +124,78 @@ const i18nKeyValues = {
         "es": "Administrador de sistemas en el Ayuntamiento y la Policía Local.",
         "fr": "Administrateur système dans la Mairie et le Département de Police.",
         "gl": "Administrador de sistemas no Concello e na Policía Local."
+    },
+    "bachelor": {
+        "en": "Bachelor’s Degree, Computer Science",
+        "es": "Grado en Ingeniería Informática",
+        "fr": "Bachelor’s Degree, Ingénierie Informatique (bac+4)",
+        "gl": "Grao en Enxeñaría Informática"
+    },
+    "associate": {
+        "en": "Associate’s Degree, Information Technology",
+        "es": "Técnico Superior en Administración de Sistemas Informáticos en Red",
+        "fr": "Associate’s Degree, Technologie de l'Information",
+        "gl": "Técnico Superior en Administración de Sistemas Informáticos en Rede"
+    },
+    "courses": {
+        "en": "Courses and certifications",
+        "es": "Cursos y certificaciones",
+        "fr": "Cours et certifications",
+        "gl": "Cursos e certificacións"
+    },
+    "angular-course": {
+        "en": "Angular 6 beginner course",
+        "es": "Curso de iniciación a Angular 6",
+        "fr": "Cours d'initiation Angular 6",
+        "gl": "Curso de iniciación a Angular 6"
+    },
+    "scrum-course": {
+        "en": "Scrum course with Scrum Manager Expert certificate",
+        "es": "Curso de Scrum con certificado Scrum Manager Expert",
+        "fr": "Cours de Scrum avec certification Scrum Manager Expert",
+        "gl": "Curso de Scrum con certificado Scrum Manager Expert"
+    },
+    "toeic": {
+        "en": "English certificate TOEIC B2",
+        "es": "Certificado de inglés TOEIC B2",
+        "fr": "Certificación d'anglais TOEIC B2",
+        "gl": "Certificado de inglés TOEIC B2"
+    },
+    "technologies": {
+        "en": "Technologies",
+        "es": "Tecnologías",
+        "fr": "Technologies",
+        "gl": "Tecnoloxías"
+    },
+    "technologies-intro": {
+        "en": "In this section I am going to put the technologies I know and links to projects where I worked with those technologies (if there are any). For more information about the projects marked with * see personal projects section.",
+        "es": "En esta sección voy a poner las tecnologías que conozco y enlaces a proyectos en los que trabajé con dichas tecnologías (si hay alguno). Para más información sobre los proyectos marcados con * ver la sección de proyectos personales.",
+        "fr": "Dans cette section, je vais mettre les technologies que je connais et des lies vers des projets où j'ai travaillé avec ces technologies (s'il y en a). Pour plus d'informations sur les projets marqués avec *, voir la section sur les projets personnels.",
+        "gl": "Nesta sección vou por as tecnoloxías que coñezo e enlaces a proxectos nos que traballei con ditas tecnoloxías (se hai algún). Para máis información sobre os proxectos marcados con * ver a sección de proxectos persoais."
+    },
+    "programming-languages": {
+        "en": "Programming languages",
+        "es": "Lenguages de programación",
+        "fr": "Langages de programmation",
+        "gl": "Linguaxes"
+    },
+    "this-page": {
+        "en": "This page",
+        "es": "Esta página",
+        "fr": "Cette page",
+        "gl": "Esta páxina"
+    },
+    "code": {
+        "en": "code",
+        "es": "código",
+        "fr": "code",
+        "gl": "código"
+    },
+    "frameworks-libraries": {
+        "en": "Frameworks and libraries",
+        "es": "Frameworks y bibliotecas",
+        "fr": "Frameworks et bibliothèques",
+        "gl": "Frameworks e bibliotecas"
     }
 }
 
