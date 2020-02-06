@@ -158,7 +158,7 @@ const i18nKeyValues = {
     "toeic": {
         "en": "English certificate TOEIC B2",
         "es": "Certificado de inglés TOEIC B2",
-        "fr": "Certificación d'anglais TOEIC B2",
+        "fr": "Certificat d'anglais TOEIC B2",
         "gl": "Certificado de inglés TOEIC B2"
     },
     "technologies": {
@@ -177,7 +177,7 @@ const i18nKeyValues = {
         "en": "Programming languages",
         "es": "Lenguages de programación",
         "fr": "Langages de programmation",
-        "gl": "Linguaxes"
+        "gl": "Linguaxes de programación"
     },
     "this-page": {
         "en": "This page",
@@ -190,6 +190,30 @@ const i18nKeyValues = {
         "es": "código",
         "fr": "code",
         "gl": "código"
+    },
+    "about-web-langs": {
+        "en": "I started learning and working with these languages in 2010 and I think they are one of my main strengths. I specially like JavaScript because I find its prototype-based programming as well as its asynchronicity very interesting and powerful, despite the fact that sometimes these characteristics can give you a headache.",
+        "es": "Empecé a aprender y a trabajar con estos lenguajes en 2010 y creo que son uno de mis puntos fuertes. Me gusta especialmente JavaScript porque encuentro su programación basada en prototipos así como su asincronicidad muy interesantes y potentes, a pesar de que más de una vez puedan darte dolor de cabeza.",
+        "fr": "J'ai commencé à étudier et travailler avec ces langages en 2010 et je crois que c'est un de mes principales forces. J'aime particulièrement JavaScript parce que je trouve sa programmation orientée prototype ainsi que sa synchronicité très intéressantes et puissantes, malgré le fait que ces caractéristiques peuvent parfois vous donner mal à la tête.",
+        "gl": "Comecei a aprender e a traballar con estas linguaxes en 2010 e creo que son un dos meus puntos fortes. Gústame especialmente Javascript porque atopo as súa programación basada en prototipos así como a súa asincronicidade moi interesantes e potentes, a pesar de que máis dunha vez poidan darche dor de cabeza."
+    },
+    "about-typescript": {
+        "en": "My first time with this language came along with Angular and I automatically fell in love with it: JavaScript with static typing, I don't need to say anything else. I've used it in my Angular projects as well as with Node.js in one of the company's projects where I was working in.",
+        "es": "Mi primera vez con este lenguaje vino de la mano de Angular y me enamoré automáticamente de él: JavaScript con tipos estáticos, nada más que añadir. Lo he utilizado en mis proyectos de Angular así como en Node.js en uno de los proyectos de una empresa en la que trabajé.",
+        "fr": "Ma première fois avec ce langage est venue avec Angular et j'en suis automatiquement tombé amoureux: JavaScript avec typage statique. Je l'ai utilisé dans mes projets Angular ainsi qu'avec Node.js dans un des projets d'une des enterprises où j'ai travaillé.",
+        "gl": "A miña primeira vez con esta lenguaxe veu da man de Angular e namoreime automáticamente dela: JavaScript con tipos estáticos, nada máis que engadir. Utiliceino nos meus proxectos de Angular así como en Node.js nun dos proxectos dunha empresa na que traballei."
+    },
+    "about-python": {
+        "en": "This is, along with JavaScript, one of my favourite programming languages. I started using it the first time I had a Raspberry Pi on my hands. Then, I used it in a subject at the university. I quickly learned it and I saw the true potential it has for fast prototyping and scripting. It was the language I chose for my degree's final project and I always use it when I want to test new ideas or I want to do side tasks for some of my projects (mainly extracting data from web pages). I also used it at work several times and I did some personal projects you can check in the personal projects section.",
+        "es": "Este es, junto con Javascript, uno de mis lenguajes de programación favoritos. Empecé a usarlo la primera vez que una Raspberry Pi calló en mis manos. Después, lo usé en una asignatura de la universidad. Lo aprendí rápido y vi el verdadero portencial que tiene para el prototipado rápido y el scripting. Fue el lenguage que elegí para hacer el proyecto final del grado y siempre lo utilizo cuando quiero probar ideas nuevas o quiero hacer tareas secundarios para algunos de mis proyectos (pricipalmente para extraer datos de páginas web). También lo utilicé en el trabajo varias veces e hice varios proyectos personales que podéis ver en la sección de proyectos personales.",
+        "fr": "C'est, avec JavaScript, un de mes langages de programmation préférés. J'ai commencé à l'utiliser la première fois qu'une Raspberry Pi m'est tombé entre les mains. Aprés cela, je l'ai utilisé dans une matière à l'université. Je l'ai appris rapidement et j'ai vu le réel potentiel qu'il a pour le prototypage rapide et le scripting. C'était le langage que j'ai choisi pour mon projet final de l'université et je l'utilise toujours quand je veux tester de nouvelles idées ou je veux faire des tâches secondaires pour certains de mes projets (principalement pour extraire des données de pages web). Je l'ai aussi utilisé au travail plusieurs fois et j'ai fait plusieurs projets personnels que vous pouvez voir dans la section projets personnels.",
+        "gl": "Este é, xunto con JavaScript, un das miñas languaxes de programación favoritas. Comecei a empregalo a primeira vez que tiven una Raspberry Pi nas miñas mans. Despois, empregeino nunha asignatura da universidad. Aprendino rápido e vin o verdadeiro potencial que ten para o prototipado e o scripting. Foi a linguaxe que elexín para facer o proxecto final do grao, e sempre o emprego cando quero probar ideas novas ou quero facer tarefas secundarias para algúns dos meus proxectos (principalmente para extraer datos de páxinas web). Tamén o empreguei no traballo varias veces e fixen varios proxectos persoais que podedes ver na sección de proxectos persoais."
+    },
+    "about-java": {
+        "en": "I used Java through all my years at university and I also used it at work for more than a year in several companies. I've done a lot of different things with Java: data structures, algorithms, web servers, socket management, thread management, distributed programs, data analysis tools... Unfortunately I don't have any interesting things in Java I can show.",
+        "es": "Usé Java durante todos mis años universitarios y también lo usé en el trabajo por más de un año en varias empresas. He hecho un montón de cosas diferentes con Java: estructuras de datos, algoritmos, servidores web, gestión de sockets, gestión de hilos, programas distribuidos, herramientas de análisis de datos... Desafortunadamente no tengo nada interesante hecho en Java que pueda mostrar.",
+        "fr": "J'ai utilisé Java pendant tous mes années à l'université et je l'ai utilisé aussi au travail pendant plus qu'un an dans plusieurs enterprises. J'ai fait beaucoup de choses différentes avec Java: structures de données, algorithmes, serveurs web, gestion de sockets, gestion de threads, programmes distribués, outils d'analyse de données... Malheureusement, je n'ai pas des choses intéressants en Java à montrer.",
+        "gl": "Empreguei Java durante tódolos meus anos universitarios e tamén o empreguei no traballo por máis dun ano en varias empresas. Fixen un montón de cousas diferentes con Java: estruturas de datos, algoritmos, servidores web, xestión de sockets, xestión de fíos, programas distribuídos, ferramentas de análise de datos... Desafortunadamente non teño nada interesnate feito en Java que poida mostrar."
     },
     "frameworks-libraries": {
         "en": "Frameworks and libraries",
@@ -217,7 +241,9 @@ const i18nKeyValues = {
     },
     "about-spanish": {
         "en": "It is my mother tongue, I was raised in Spanish.",
-        "es": "Es mi lengua manterna, me criaron en español."
+        "es": "Es mi lengua manterna, me criaron en español.",
+        "fr": "C'est ma langue maternelle, j'ai été élevé en espagnol.",
+        "gl": "É a miña lingua materna, criáronme en español."
     },
     "galician": {
         "en": "Galician",
@@ -227,7 +253,9 @@ const i18nKeyValues = {
     },
     "about-galician": {
         "en": "I learnt it when I was 8 and I can speak it like if it's my mother tongue.",
-        "es": "Lo aprendí cuando tenía 8 años y puedo hablarlo como si fuese mi lengua materna."
+        "es": "Lo aprendí cuando tenía 8 años y puedo hablarlo como si fuese mi lengua materna.",
+        "fr": "Je l'ai appris quand j'avais 8 ans et je peux le parler comme si c'était ma langue maternelle.",
+        "gl": "Aprendino cando tiña 8 anos e podo falalo coma se fose a miña lingua materna."
     },
     "english": {
         "en": "English",
@@ -236,8 +264,10 @@ const i18nKeyValues = {
         "gl": "Inglés"
     },
     "about-english": {
-        "en": "I started learning it in the kindergarten and I am still learning it since then. I attended two language exchange programs of three weeks each, one in London, Ontario and the other one in Edinburgh, Scotland. I also have a TOEIC B2 certificate I got when I started working. I don't have a native level but I think I am quite good in it, it got me a job in 2018 and I worked for a little bit more than a year in an international environment (with Spanish, French, Italian, Romanian, Portuguese and Lithuanian people) using mainly English.",
-        "es": "Empecé a aprenderlo cuando estaba en prescolar y todavía sigo aprendiéndolo. Participé en dos programas de intercambio lingüístico de tres semanas cada uno, uno en London, Ontario y el otro en Edimburgo, Escocia. También tengo un certificado TOEIC B2 que obtuve cuando empecé a trabajar. No tengo un nivel nativo pero creo que soy bastante bueno en él, me consiguió un trabajo en 2018 y trabajé durante un poco más de un año en un entorno internacional (con gente española, francesa, italiana, rumana, portuguesa y lituana) usando principalmente el inglés."
+        "en": "I started learning it in the kindergarten and I am still learning it. I attended to two language exchange programs of three weeks each, one in London, Ontario, and the other one in Edinburgh, Scotland. I also have a TOEIC B2 certificate I got in 2017. I don't have a native level but I think it is quite good, it got me a job in 2018 and I worked for a little bit more than a year in an international environment (with Spanish, French, Italian, Romanian, Portuguese and Lithuanian people) using mainly English.",
+        "es": "Empecé a aprenderlo en preescolar y todavía sigo aprendiéndolo. Participé en dos programas de intercambio lingüístico de tres semanas cada uno, uno en London, Ontario, y el otro en Edimburgo, Escocia. También tengo un certificado TOEIC B2 que obtuve en 2017. No tengo un nivel nativo pero creo que es bastante bueno, me consiguió un trabajo en 2018 y trabajé durante un poco más de un año en un entorno internacional (con españoles, franceses, italianos, rumanos, portugueses y lituanos) usando principalmente el inglés.",
+        "fr": "J'ai commencé a l'apprendre à l'école maternelle et je l'apprendre encore. J'ai participé à deux programmes d'échange linguistique de trois semaines chacun, l'un à London, en Ontario, et l'autre à Édimbourg, en Écosse. J'ai aussi un certificat TOEIC B2 que j'ai obtenu en 2017. Je n'ai pas un niveau natif mais je pense qu'il est assez bon, il m'a permis d'obtenir un emploi en 2018 et j'ai travaillé pendant un peu plus d'un an dans un environnement international (avec des Espagnols, des Français, des Italiens, Roumains, des Portugais et des Lituaniens) en utilisant principalement l'anglais.",
+        "gl": "Comecei a aprendelo en preescolar e anínda sigo aprendéndoo. Participei en dous programas de intercambio ligüístico de tres semanas cada un, un en London, Ontario, e o outro en Edimburgo, Escocia. Tamén teño un certificado TOEIC B2 que obtiven en 2017. Non teño un nivel nativo pero creo que é bastante bo, conseguíume un traballo en 2018 e traballei durante un pouco máis dun ano nun entorno internacional (con españois, franceses, italianos, rumanos, portugueses e lituanos) empregando principalmente o inglés."
     },
     "french": {
         "en": "French",
@@ -246,8 +276,10 @@ const i18nKeyValues = {
         "gl": "Francés"
     },
     "about-french": {
-        "en": "I studied it for two years in highschool and I lived for a little bit more than a year in France. I am not as fluent as in English but I was able to work in a French company during my stay there.",
-        "es": "Lo estudié durante dos años en el instituto y viví durante un poco más de un año en Francia. No lo hablo tan bien como en inglés pero fuí capaz de trabajar en una empresa francesa durante mi estancia allí."
+        "en": "I studied it for two years in highschool and I lived for a little bit more than a year in France, where I started learning it again. I am not as fluent as in English but I was able to work in a French company during my stay there.",
+        "es": "Lo estudié durante dos años en el instituto y viví durante un poco más de un año en Francia, donde comencé de nuevo a estudiarlo. No lo hablo tan bien como en inglés pero fuí capaz de trabajar en una empresa francesa durante mi estancia allí.",
+        "fr": "Je l'ai étudié pendant deux ans au collège et j'ai habité pendant un peu plus d'un an en France, où j'ai recommence a l'étudier. Je ne le parle aussi bien que l'anglais mais j'ai pu travailler dans une enterprise française pendant mon séjour là-bas.",
+        "gl": "Estudieino durante dous anos no instituto e vivín duranto un pouco máis dun ano en Francia, onde comecei de novo a estudialo. Non o falo tan ben como o inglés pero fun capaz de traballar nunha empresa francesa durante a miña estancia alá."
     },
     "portuguese": {
         "en": "Portuguese",
@@ -256,8 +288,10 @@ const i18nKeyValues = {
         "gl": "Portugués"
     },
     "about-portuguese": {
-        "en": "Portuguese and Galician were the same language in the middle age and they remained quite similar until now, so I can understand it and speak it quite well. There are some words that are false friends between Portuguese and Galician, so I apologize in advance if I mix the two languages.",
-        "es": "El portugués y el gallego fueron la misma lengua en la edad media y se mantuvieron bastante parecidas hasta ahora, por lo que puedo entenderlo y hablarlo bastante bien. Hay bastantes falsos amigos entre el Portugués y el Gallego, por lo que pido disculpas de antemano si mezclo las dos lenguas."
+        "en": "Portuguese and Galician were the same language in the middle age and they remained quite similar until now, so I can understand it and speak it quite well. There are some words in Portuguese and Galician that are false friends, so there are chances that sometimes I mix the two languages.",
+        "es": "El portugués y el gallego fueron la misma lengua en la edad media y se mantuvieron bastante parecidas hasta ahora, por lo que puedo entenderlo y hablarlo bastante bien. Hay algunas palabras en portugués y gallego que falsos amigos, por lo que es probable que a veces mezcle las dos lenguas.",
+        "fr": "Le portugais et le galicien étaient la même langue au moyen-âge et ils restent assez semblables aujourd'hui, donc je peux le comprendre et le parler assez bien. Il y a des mots en portugais et galicien qui sont faux amis, il est donc probable que je mélange parfois les deux langues.",
+        "gl": "O portugués e o galego foron a misma lingua na idade media e mantuvéronse bastante semellantes até agora, polo que podo entendelo e falalo bastante ben. Hai algunhas palabras en portugués e galego que son falsos amigos, polo que é probable que ás veces mesture as dúas linguas."
     },
     "finnish": {
         "en": "Finnish",
@@ -266,12 +300,16 @@ const i18nKeyValues = {
         "gl": "Finés"
     },
     "about-finnish-1": {
-        "en": "I started studying when I finished my first year of university and by the beginning of the next year I was able to speak and unterstand it in simple conversations, but due to my studies I had to stop. I could't find really good resources for learning it on the Internet and this is why I created",
-        "es": "Empecé a estudiarlo cuando terminé mi primer año de universidad y cuando empecé el siguiente ya era capaz de hablarlo y entenderlo en conversaciones simples, pero debido a mis estudios tuve que dejarlo. No encotraba buenos recursos para aprenderlo en Internet y esa es la razón por la que creé"
+        "en": "I started studying it when I finished my first year of university and, by the beginning of the next year, I was able to speak and unterstand it in simple conversations, but I had to stop due to my studies. I could't find really good resources for learning it on the Internet and this is why I created",
+        "es": "Empecé a estudiarlo cuando terminé mi primer año de universidad y, cuando empecé el siguiente, ya era capaz de hablarlo y entenderlo en conversaciones simples, pero tuve que dejarlo debido a mis estudios. No encotraba buenos recursos para aprenderlo en Internet y esa fue la razón por la que creé",
+        "fr": "J'ai commencé a l'étudier quand j'ai fini ma première année d'université et au debut de l'année suivante, je pouvais déjà le parler et le comprendre dans des conversations simples, mais j'ai dû arrêter à cause de mes études. Je ne trouvais pas de très bonnes ressources pour l'apprendre sur Internet et c'est pourquoi j'ai créé",
+        "gl": "Comecei a estudialo cando rematei o meu primer ano de universidade e, cando comecei o segundo, xa era capaz de falalo e entendelo en conversacións simples, pero tiven que deixalo por mor dos meus estudos. Non atopaba bos recursos para aprendelo en Internet e esa foi a razón pola que creei"
     },
     "about-finnish-2": {
-        "en": "in my free time. Right now I am not spending time learning Finnish, to be honest, and I don't speak it as well as I did it in the past, but I promise to start again soon!",
-        "es": "en mi tiempo libre. Ahora mismo no le dedico ningún tiempo al Finés, siendo franco, y no lo hablo tan bien como lo hablé en el pasado, ¡pero prometo empezar de nuevo pronto!"
+        "en": "in my free time. I am not spending time learning Finnish right now and I don't speak it as well as I did it in the past, but I promise to start again soon!",
+        "es": "en mi tiempo libre. Ahora mismo no le dedico ningún tiempo al finés y no lo hablo tan bien como lo hablé en el pasado, ¡pero prometo empezar de nuevo pronto!",
+        "fr": "pendant mon temps libre. Je ne passe pas de temps à apprendre le finnois et je ne parle pass aussi bien que dans le passé, mais je promets de recommencer bientôt !",
+        "gl": "no meu tempo libre. Agora mesmo non lle dedico ningún tempo ó finés e non o falo tan ben como o falaba no pasado, pero prometo comezar de novo pronto!"
     },
     "polish": {
         "en": "Polish",
@@ -281,7 +319,9 @@ const i18nKeyValues = {
     },
     "about-polish": {
         "en": "It is the last language I started studying and I am not really good at it yet. I can only say really simple sentences. There is still a lot of hard work to do!",
-        "es": "Es el último idioma que comencé a estudiar y aún no soy muy bueno. Solamente puedo decir frases muy simples. ¡Aún queda mucho trabajo que hacer!"
+        "es": "Es el último idioma que comencé a estudiar y aún no soy muy bueno. Solamente puedo decir frases muy simples. ¡Aún queda mucho trabajo por hacer!",
+        "fr": "C'est la dernière langue que j'ai commencé à étudier et je ne suis pas encore très bon. Je ne peux dire que des phrases très simples. Il y a encore beaucoup de travail à faire !",
+        "gl": "É a última lingua que comecei a estudar e aínda non son moi bo. So podo dicir frases moi simples. Aínda queda moito traballo por facer!"
     }
 }
 
