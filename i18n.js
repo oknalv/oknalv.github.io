@@ -196,6 +196,92 @@ const i18nKeyValues = {
         "es": "Frameworks y bibliotecas",
         "fr": "Frameworks et bibliothèques",
         "gl": "Frameworks e bibliotecas"
+    },
+    "languages": {
+        "en": "Languages",
+        "es": "Idiomas",
+        "fr": "Langues",
+        "gl": "Idiomas"
+    },
+    "languages-intro": {
+        "en": "I am really passionate about languages, from learning them to know interesting facts about them (at least interesting for me). In this section I am going to try to estimate my skill level in each language I speak or I am learning.",
+        "es": "Soy un verdadero apasionado de los idiomas, desde aprenderlos hasta conocer curiosidades interesantes sobre ellos (al menos interesantes para mí). En esta sección voy a tratar de estimar el nivel de mi habilidad en cada idioma que hablo o que estoy aprendiendo.",
+        "fr": "Je suis vraiment passioné par les langues, de l'apprentisage à la connaissance des informations intéressantes à leur sujet (au moins intéressantes pour moi). Dans cette section, je vais essayer d'estimer le niveau de ma compétence dans chaque langue que je parle ou que j'apprends.",
+        "gl": "Son un verdadeiro apaixonado dos idiomas, dende aprendelos até coñecer curiosidades interesantes sobre eles (polo menos interesantes para min). Nesta sección vou tentar de estimar o meu nivel de habilidade en cada idioma que falo ou que estou a aprender."
+    },
+    "spanish": {
+        "en": "Spanish",
+        "es": "Español",
+        "fr": "Espagnol",
+        "gl": "Español"
+    },
+    "about-spanish": {
+        "en": "It is my mother tongue, I was raised in Spanish.",
+        "es": "Es mi lengua manterna, me criaron en español."
+    },
+    "galician": {
+        "en": "Galician",
+        "es": "Gallego",
+        "fr": "Galicien",
+        "gl": "Galego"
+    },
+    "about-galician": {
+        "en": "I learnt it when I was 8 and I can speak it like if it's my mother tongue.",
+        "es": "Lo aprendí cuando tenía 8 años y puedo hablarlo como si fuese mi lengua materna."
+    },
+    "english": {
+        "en": "English",
+        "es": "Inglés",
+        "fr": "Anglais",
+        "gl": "Inglés"
+    },
+    "about-english": {
+        "en": "I started learning it in the kindergarten and I am still learning it since then. I attended two language exchange programs of three weeks each, one in London, Ontario and the other one in Edinburgh, Scotland. I also have a TOEIC B2 certificate I got when I started working. I don't have a native level but I think I am quite good in it, it got me a job in 2018 and I worked for a little bit more than a year in an international environment (with Spanish, French, Italian, Romanian, Portuguese and Lithuanian people) using mainly English.",
+        "es": "Empecé a aprenderlo cuando estaba en prescolar y todavía sigo aprendiéndolo. Participé en dos programas de intercambio lingüístico de tres semanas cada uno, uno en London, Ontario y el otro en Edimburgo, Escocia. También tengo un certificado TOEIC B2 que obtuve cuando empecé a trabajar. No tengo un nivel nativo pero creo que soy bastante bueno en él, me consiguió un trabajo en 2018 y trabajé durante un poco más de un año en un entorno internacional (con gente española, francesa, italiana, rumana, portuguesa y lituana) usando principalmente el inglés."
+    },
+    "french": {
+        "en": "French",
+        "es": "Francés",
+        "fr": "Français",
+        "gl": "Francés"
+    },
+    "about-french": {
+        "en": "I studied it for two years in highschool and I lived for a little bit more than a year in France. I am not as fluent as in English but I was able to work in a French company during my stay there.",
+        "es": "Lo estudié durante dos años en el instituto y viví durante un poco más de un año en Francia. No lo hablo tan bien como en inglés pero fuí capaz de trabajar en una empresa francesa durante mi estancia allí."
+    },
+    "portuguese": {
+        "en": "Portuguese",
+        "es": "Portugués",
+        "fr": "Portugais",
+        "gl": "Portugués"
+    },
+    "about-portuguese": {
+        "en": "Portuguese and Galician were the same language in the middle age and they remained quite similar until now, so I can understand it and speak it quite well. There are some words that are false friends between Portuguese and Galician, so I apologize in advance if I mix the two languages.",
+        "es": "El portugués y el gallego fueron la misma lengua en la edad media y se mantuvieron bastante parecidas hasta ahora, por lo que puedo entenderlo y hablarlo bastante bien. Hay bastantes falsos amigos entre el Portugués y el Gallego, por lo que pido disculpas de antemano si mezclo las dos lenguas."
+    },
+    "finnish": {
+        "en": "Finnish",
+        "es": "Finés",
+        "fr": "Finnois",
+        "gl": "Finés"
+    },
+    "about-finnish-1": {
+        "en": "I started studying when I finished my first year of university and by the beginning of the next year I was able to speak and unterstand it in simple conversations, but due to my studies I had to stop. I could't find really good resources for learning it on the Internet and this is why I created",
+        "es": "Empecé a estudiarlo cuando terminé mi primer año de universidad y cuando empecé el siguiente ya era capaz de hablarlo y entenderlo en conversaciones simples, pero debido a mis estudios tuve que dejarlo. No encotraba buenos recursos para aprenderlo en Internet y esa es la razón por la que creé"
+    },
+    "about-finnish-2": {
+        "en": "in my free time. Right now I am not spending time learning Finnish, to be honest, and I don't speak it as well as I did it in the past, but I promise to start again soon!",
+        "es": "en mi tiempo libre. Ahora mismo no le dedico ningún tiempo al Finés, siendo franco, y no lo hablo tan bien como lo hablé en el pasado, ¡pero prometo empezar de nuevo pronto!"
+    },
+    "polish": {
+        "en": "Polish",
+        "es": "Polaco",
+        "fr": "Polonais",
+        "gl": "Polaco"
+    },
+    "about-polish": {
+        "en": "It is the last language I started studying and I am not really good at it yet. I can only say really simple sentences. There is still a lot of hard work to do!",
+        "es": "Es el último idioma que comencé a estudiar y aún no soy muy bueno. Solamente puedo decir frases muy simples. ¡Aún queda mucho trabajo que hacer!"
     }
 }
 

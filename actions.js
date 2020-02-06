@@ -110,6 +110,9 @@ const startCollapsers = () => {
             else {
                 collapsable.classList.add("collapsed");
                 collapser.classList.remove("rotate");
+                for(let col of collapsable.querySelectorAll(".collapser.rotate")){
+                    col.onclick();
+                }
             }
         }
         if(collapsable.classList.contains("collapsed")){
@@ -121,5 +124,20 @@ const startCollapsers = () => {
         
     }
 }
+
+const startLangLevel = () => {
+    for(let container of document.querySelectorAll("[data-lang-level]")){
+        let quantity = parseInt(container.getAttribute("data-lang-level"));
+        for(let i = 0; i < 6; i++){
+            quantity--;
+            let star = document.createElement("span");
+            let type = quantity >= 0 ? "star" : "star-empty";
+            star.classList.add(type);
+            container.append(star);
+        }
+    }
+}
+
 startLangSelector();
 startCollapsers();
+startLangLevel();

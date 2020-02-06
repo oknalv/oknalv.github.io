@@ -9,6 +9,7 @@
     --text-color: #93a1a1;
     --title-color: #2aa198;
     --link-color: #268bd2;
+    --star-color: #b58900;
 }
 
 html,
@@ -348,6 +349,20 @@ div.lateral-bar:nth-last-child(2) {
 .collapsable.collapsed h3 {
     padding: 0 !important;
     transition: padding var(--collapser-time) ease var(--collapser-time);
+}
+
+.star,
+.star-empty {
+    font-style: normal;
+    color: var(--star-color);
+}
+
+.star:after {
+    content: "★";
+}
+
+.star-empty:after {
+    content: "☆";
 }
 
 /* LANGUAGE SELECTOR */
