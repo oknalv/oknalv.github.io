@@ -30,10 +30,10 @@ const i18nKeyValues = {
         "gl": "Proxectos persoais"
     },
     "home-text": {
-        "en": "Hello, my name is Eliot and I am a Spanish software engineer specialized in web development and the purpose of this page is to show you a little bit about me. Something to start with: I love tortilla de patatas (without onion), churrasco, tartiflette, pierogi and salmorejo among other dishes but, unless you want to invite me to dinner, let's focus on the reason why you are here, so I invite you to check more relevant information about me in the different sections of this page by clicking on the titles below.",
-        "es": "Hola, me llamo Eliot y soy un ingeniero de software español especializado en desarrollo web y el objetivo de esta página es mostraros un poco sobre mí. Algo con lo que empezar: me encanta la tortilla de patatas (sin cebolla), el churrasco, la tartiflette, los pierogi y el salmorejo entre otros platos pero, a menos que queráis invitarme a cenar, centrémonos en la razón por la que estáis aquí, así que os invito a echarle un ojo a información sobre mí más relevante en las diferentes secciones de esta página haciendo click en los títulos de abajo.",
-        "fr": "Salut, je m'appelle Eliot et je suis un ingénieur logiciel spécialisé dans le développement web et le but de cette page est vous montrer un petit peu de moi. Pour commencer: j'adore la tortilla de patatas (sans oignon), le churrasco, la tartiflette, les pierogi et le salmorejo entre autres plats mais, à moins que vous vouliez m'inviter à dîner, concentrons-nous sur la raison pour laquelle vous êtes ici, donc je vous invite à consulter des informations sur moi plus pertinentes dans les différentes sections de cette page en cliquant sur les titres ci-dessous.",
-        "gl": "Ola, chámome Eliot e sou un enxeñeiro de software español especializado en desenvolvemento web e o obxectivo desta páxina é amosarvos un pouco sobre min. Algo co que comezar: encántame a tortilla de patacas (sen cebola), o churrasco, a tartiflette, os pierogi e o salmorejo entre outros pratos pero, a menos que queirades invitare a cear, centrémonos na razón pola que estades aquí, así que vos invito a botarlle un ollo a información sobre min máis relevante nas diferentes seccións desta páxina facendo click nos títulos de abaixo."
+        "en": "Hello, my name is Eliot and I am a Spanish software engineer specialized in web development and the purpose of this page is to show you a little bit about me. Something to start with: I love tortilla de patatas (without onion), churrasco, tartiflette, pierogi and salmorejo among other dishes, but, unless you want to invite me to dinner, let's focus on the reason why you are here, so I invite you to check more relevant information about me in the different sections of this page by clicking on the titles below.",
+        "es": "Hola, me llamo Eliot y soy un ingeniero de software español especializado en desarrollo web y el objetivo de esta página es mostraros un poco sobre mí. Algo con lo que empezar: me encanta la tortilla de patatas (sin cebolla), el churrasco, la tartiflette, los pierogi y el salmorejo entre otros platos, pero, a menos que queráis invitarme a cenar, centrémonos en la razón por la que estáis aquí, así que os invito a echarle un ojo a información sobre mí más relevante en las diferentes secciones de esta página haciendo click en los títulos de abajo.",
+        "fr": "Salut, je m'appelle Eliot et je suis un ingénieur logiciel spécialisé dans le développement web et le but de cette page est vous montrer un petit peu de moi. Pour commencer: j'adore la tortilla de patatas (sans oignon), le churrasco, la tartiflette, les pierogi et le salmorejo entre autres plats, mais, à moins que vous vouliez m'inviter à dîner, concentrons-nous sur la raison pour laquelle vous êtes ici, donc je vous invite à consulter des informations sur moi plus pertinentes dans les différentes sections de cette page en cliquant sur les titres ci-dessous.",
+        "gl": "Ola, chámome Eliot e sou un enxeñeiro de software español especializado en desenvolvemento web e o obxectivo desta páxina é amosarvos un pouco sobre min. Algo co que comezar: encántame a tortilla de patacas (sen cebola), o churrasco, a tartiflette, os pierogi e o salmorejo entre outros pratos, pero, a menos que queirades invitare a cear, centrémonos na razón pola que estades aquí, así que vos invito a botarlle un ollo a información sobre min máis relevante nas diferentes seccións desta páxina facendo click nos títulos de abaixo."
     },
     "france": {
         "en": "France",
@@ -69,7 +69,7 @@ const i18nKeyValues = {
         "en": "Development of a web platform from scratch for the management of the projects' data of one of the departments of the company, developed using Angular and Angular Material in the front end, and Node.js, Express and TypeScript in the back end. The database is in MySQL. The methodology used for this project is Scrum in a distributed team.",
         "es": "Desarollo de una plataforma web desde cero para la gestión de los datos de los proyectos de uno de los departamentos de la empresa, desarrollado usando Angular y Angular Material en el front end, y Node.js, Express y TypeScript en el back end. La base de datos utilizada es en MySQL. La metodología para este proyecto es Scrum en un equipo distribuido.",
         "fr": "Développement d'une plate-forme web à partir de zéro pour gérer des données des projets d'un des départements de l'entreprise, développée en utilisant Angular et Angular Material pour le front end, et Node.js, Express et TypeScript pour le back end. La plate-forme utilise une base de données MySQL. La méthodologie utilisée pour ce project est Scrum dans une équipe de travail distribuée.",
-        "gl": "Desenvolvemento dunha plataforma web desde cero para a xestión dos datos dos proxectos dun dos departamentos da empresa, desenvolvido empregando Angular e Angular Material no front end, e Node.js, Express e TypeScript no back end. A base de datos empregada é en MySQL. A metodoloxía empregada para este proxecto é Scrum nun equipo distribuído."
+        "gl": "Desenvolvemento dunha plataforma web desde cero para a xestión dos datos dos proxectos dun dos departamentos da empresa, desenvolvido usando Angular e Angular Material no front end, e Node.js, Express e TypeScript no back end. A base de datos utilizada é en MySQL. A metodoloxía utilizada para este proxecto é Scrum nun equipo distribuído."
     },
     "akka-3": {
         "en": "Development of a software for the client Acore that communicates with a PLC which controls rectifiers. The software is developed in C# using WPF and Entity Framework with MySQL.",
@@ -93,7 +93,7 @@ const i18nKeyValues = {
         "en": "Development and maintenance of a web based (SPA) logistics management application for Inditex. In the front end, this application uses mainly vanilla JavaScript with some jQuery (DOM manipulations, promise handling and communication with the back end REST API), Underscore (templates) and Backbone (routing), using also the IndexedDB API for storing temporary data. In the back end, this application uses Spring for the REST API endpoints as well as for the dependency injection manager, using complex SQL sentences in the database (DB2) layer for retrieving and adding data. This project was developed using the Scrum methodology mixed with some Kanban in a distributed team.",
         "es": "Desarrollo y mantenimiento de una aplicación web (SPA) de gestión logística para Inditex. En el front end, esta aplicación utiliza JavaScript puro con algo de jQuery (manipulación del DOM, manejo de promesas y comunicación con la API REST del back end), Underscore (plantillas) y Backbone (routing), usando también la API de IndexedDB para almacenar datos temporales. En el back end, esta aplicación usa Spring para la API REST así como para el gestor de inyección de dependencias, usando sentencias SQL complejas en la capa de la base de datos (DB2) para consultar y añadir datos. Este proyecto está desarrollado con la metodología Scrum mezclada con un poco de Kanban en un equipo distribuido.",
         "fr": "Développement et maintenance d'une application web (SPA) de gestion logistique pour Inditex. Dans le front end, cette application utilise JavaScript pur avec un peu de jQuery (manipulation du DOM, traitement des promesses et communication avec l'API REST du back end), Underscore (templates) et Backbone (routing), en utilisant aussi l'API IndexedDB pour enregistrer des données temporaires. Dans le back end, cette application utilise Spring pour faire les endpoints de l'API REST ainsi que pour l'injection de dépendances, en utilisant des instructions complexes SQL au niveau de la base de données (DB2). Ce projet est développé en utilisant la méthodologie Scrum combinée avec un peu de Kanban.",
-        "gl": "Desenvolvemento e mantemento dunha aplicación web (SPA) de xestión loxística para Inditex. No front end, esta aplicación emprega JavaScript puro con algo de jQuery (manipulación do DOM, manexo de promesas e comunicación coa API REST do back end), Underscore (templates) e Backbone (routing), empregando tamén a API de IndexedDB para almacenar datos temporais. No back end, esta apliación emprega Spring para a API rest así como para o xestor de inxección de dependencias, empregando sentencias SQL complexas na capa da base de datos (DB2) para consultar e engadir datos. Este proxecto está desenvolvido coa metodoloxía Scrum mesturada con un pouco de Kanban nun equipo distribuído."
+        "gl": "Desenvolvemento e mantemento dunha aplicación web (SPA) de xestión loxística para Inditex. No front end, esta aplicación usa JavaScript puro con algo de jQuery (manipulación do DOM, manexo de promesas e comunicación coa API REST do back end), Underscore (templates) e Backbone (routing), usando tamén a API de IndexedDB para almacenar datos temporais. No back end, esta apliación utiliza Spring para a API rest así como para o xestor de inxección de dependencias, utilizando sentencias SQL complexas na capa da base de datos (DB2) para consultar e engadir datos. Este proxecto está desenvolvido coa metodoloxía Scrum mesturada con un pouco de Kanban nun equipo distribuído."
     },
     "plexus-1": {
         "en": "Software maintenance for Barceló Viajes.",
@@ -105,7 +105,7 @@ const i18nKeyValues = {
         "en": "Development of a customer clustering system for PrestaShop CMS using Spark MLlib.",
         "es": "Desarrollo de un sistema de clustering de clientes para el CMS PrestaShop usando Spark MLlib.",
         "fr": "Développement d'un système de clustering des données pour PrestaShop CMS en utilisant Spark MLlib.",
-        "gl": "Desenvolvemento dun sistema de clustering de clientes para o CMS PrestaShop empregando Spark MLlib."
+        "gl": "Desenvolvemento dun sistema de clustering de clientes para o CMS PrestaShop utilizando Spark MLlib."
     },
     "redegal-2": {
         "en": "Development of the web interface of a route optimization system for garbage collection services, using AngularJS and LeafletJS in the front end, Node.js in the back end and an OSRM server.",
@@ -191,35 +191,17 @@ const i18nKeyValues = {
         "fr": "code",
         "gl": "código"
     },
-    "about-web-langs": {
-        "en": "I started learning and working with these languages in 2010 and I think they are one of my main strengths. I specially like JavaScript because I find its prototype-based programming as well as its asynchronicity very interesting and powerful, despite the fact that sometimes these characteristics can give you a headache.",
-        "es": "Empecé a aprender y a trabajar con estos lenguajes en 2010 y creo que son uno de mis puntos fuertes. Me gusta especialmente JavaScript porque encuentro su programación basada en prototipos así como su asincronicidad muy interesantes y potentes, a pesar de que más de una vez puedan darte dolor de cabeza.",
-        "fr": "J'ai commencé à étudier et travailler avec ces langages en 2010 et je crois que c'est un de mes principales forces. J'aime particulièrement JavaScript parce que je trouve sa programmation orientée prototype ainsi que sa synchronicité très intéressantes et puissantes, malgré le fait que ces caractéristiques peuvent parfois vous donner mal à la tête.",
-        "gl": "Comecei a aprender e a traballar con estas linguaxes en 2010 e creo que son un dos meus puntos fortes. Gústame especialmente Javascript porque atopo as súa programación basada en prototipos así como a súa asincronicidade moi interesantes e potentes, a pesar de que máis dunha vez poidan darche dor de cabeza."
-    },
-    "about-typescript": {
-        "en": "My first time with this language came along with Angular and I automatically fell in love with it: JavaScript with static typing, I don't need to say anything else. I've used it in my Angular projects as well as with Node.js in one of the company's projects where I was working in.",
-        "es": "Mi primera vez con este lenguaje vino de la mano de Angular y me enamoré automáticamente de él: JavaScript con tipos estáticos, nada más que añadir. Lo he utilizado en mis proyectos de Angular así como en Node.js en uno de los proyectos de una empresa en la que trabajé.",
-        "fr": "Ma première fois avec ce langage est venue avec Angular et j'en suis automatiquement tombé amoureux: JavaScript avec typage statique. Je l'ai utilisé dans mes projets Angular ainsi qu'avec Node.js dans un des projets d'une des enterprises où j'ai travaillé.",
-        "gl": "A miña primeira vez con esta lenguaxe veu da man de Angular e namoreime automáticamente dela: JavaScript con tipos estáticos, nada máis que engadir. Utiliceino nos meus proxectos de Angular así como en Node.js nun dos proxectos dunha empresa na que traballei."
-    },
-    "about-python": {
-        "en": "This is, along with JavaScript, one of my favourite programming languages. I started using it the first time I had a Raspberry Pi on my hands. Then, I used it in a subject at the university. I quickly learned it and I saw the true potential it has for fast prototyping and scripting. It was the language I chose for my degree's final project and I always use it when I want to test new ideas or I want to do side tasks for some of my projects (mainly extracting data from web pages). I also used it at work several times and I did some personal projects you can check in the personal projects section.",
-        "es": "Este es, junto con Javascript, uno de mis lenguajes de programación favoritos. Empecé a usarlo la primera vez que una Raspberry Pi calló en mis manos. Después, lo usé en una asignatura de la universidad. Lo aprendí rápido y vi el verdadero portencial que tiene para el prototipado rápido y el scripting. Fue el lenguage que elegí para hacer el proyecto final del grado y siempre lo utilizo cuando quiero probar ideas nuevas o quiero hacer tareas secundarios para algunos de mis proyectos (pricipalmente para extraer datos de páginas web). También lo utilicé en el trabajo varias veces e hice varios proyectos personales que podéis ver en la sección de proyectos personales.",
-        "fr": "C'est, avec JavaScript, un de mes langages de programmation préférés. J'ai commencé à l'utiliser la première fois qu'une Raspberry Pi m'est tombé entre les mains. Aprés cela, je l'ai utilisé dans une matière à l'université. Je l'ai appris rapidement et j'ai vu le réel potentiel qu'il a pour le prototypage rapide et le scripting. C'était le langage que j'ai choisi pour mon projet final de l'université et je l'utilise toujours quand je veux tester de nouvelles idées ou je veux faire des tâches secondaires pour certains de mes projets (principalement pour extraire des données de pages web). Je l'ai aussi utilisé au travail plusieurs fois et j'ai fait plusieurs projets personnels que vous pouvez voir dans la section projets personnels.",
-        "gl": "Este é, xunto con JavaScript, un das miñas languaxes de programación favoritas. Comecei a empregalo a primeira vez que tiven una Raspberry Pi nas miñas mans. Despois, empregeino nunha asignatura da universidad. Aprendino rápido e vin o verdadeiro potencial que ten para o prototipado e o scripting. Foi a linguaxe que elexín para facer o proxecto final do grao, e sempre o emprego cando quero probar ideas novas ou quero facer tarefas secundarias para algúns dos meus proxectos (principalmente para extraer datos de páxinas web). Tamén o empreguei no traballo varias veces e fixen varios proxectos persoais que podedes ver na sección de proxectos persoais."
-    },
-    "about-java": {
-        "en": "I used Java through all my years at university and I also used it at work for more than a year in several companies. I've done a lot of different things with Java: data structures, algorithms, web servers, socket management, thread management, distributed programs, data analysis tools... Unfortunately I don't have any interesting things in Java I can show.",
-        "es": "Usé Java durante todos mis años universitarios y también lo usé en el trabajo por más de un año en varias empresas. He hecho un montón de cosas diferentes con Java: estructuras de datos, algoritmos, servidores web, gestión de sockets, gestión de hilos, programas distribuidos, herramientas de análisis de datos... Desafortunadamente no tengo nada interesante hecho en Java que pueda mostrar.",
-        "fr": "J'ai utilisé Java pendant tous mes années à l'université et je l'ai utilisé aussi au travail pendant plus qu'un an dans plusieurs enterprises. J'ai fait beaucoup de choses différentes avec Java: structures de données, algorithmes, serveurs web, gestion de sockets, gestion de threads, programmes distribués, outils d'analyse de données... Malheureusement, je n'ai pas des choses intéressants en Java à montrer.",
-        "gl": "Empreguei Java durante tódolos meus anos universitarios e tamén o empreguei no traballo por máis dun ano en varias empresas. Fixen un montón de cousas diferentes con Java: estruturas de datos, algoritmos, servidores web, xestión de sockets, xestión de fíos, programas distribuídos, ferramentas de análise de datos... Desafortunadamente non teño nada interesnate feito en Java que poida mostrar."
-    },
     "frameworks-libraries": {
         "en": "Frameworks and libraries",
         "es": "Frameworks y bibliotecas",
         "fr": "Frameworks et bibliothèques",
         "gl": "Frameworks e bibliotecas"
+    },
+    "methodologies": {
+        "en": "Methodologies",
+        "es": "Metodologías",
+        "fr": "Méthodologies",
+        "gl": "Metodoloxías"
     },
     "languages": {
         "en": "Languages",
@@ -228,10 +210,10 @@ const i18nKeyValues = {
         "gl": "Idiomas"
     },
     "languages-intro": {
-        "en": "I am really passionate about languages, from learning them to know interesting facts about them (at least interesting for me). In this section I am going to try to estimate my skill level in each language I speak or I am learning.",
-        "es": "Soy un verdadero apasionado de los idiomas, desde aprenderlos hasta conocer curiosidades interesantes sobre ellos (al menos interesantes para mí). En esta sección voy a tratar de estimar el nivel de mi habilidad en cada idioma que hablo o que estoy aprendiendo.",
-        "fr": "Je suis vraiment passioné par les langues, de l'apprentisage à la connaissance des informations intéressantes à leur sujet (au moins intéressantes pour moi). Dans cette section, je vais essayer d'estimer le niveau de ma compétence dans chaque langue que je parle ou que j'apprends.",
-        "gl": "Son un verdadeiro apaixonado dos idiomas, dende aprendelos até coñecer curiosidades interesantes sobre eles (polo menos interesantes para min). Nesta sección vou tentar de estimar o meu nivel de habilidade en cada idioma que falo ou que estou a aprender."
+        "en": "I am really passionate about languages. In this section I am going to try to estimate my skill level in each language I speak or I am learning.",
+        "es": "Soy un verdadero apasionado de los idiomas. En esta sección voy a tratar de estimar el nivel de mi habilidad en cada idioma que hablo o que estoy aprendiendo.",
+        "fr": "Je suis vraiment passioné par les langues. Dans cette section, je vais essayer d'estimer le niveau de ma compétence dans chaque langue que je parle ou que j'apprends.",
+        "gl": "Son un verdadeiro apaixonado dos idiomas. Nesta sección vou tentar de estimar o meu nivel de habilidade en cada idioma que falo ou que estou a aprender."
     },
     "spanish": {
         "en": "Spanish",
@@ -264,10 +246,10 @@ const i18nKeyValues = {
         "gl": "Inglés"
     },
     "about-english": {
-        "en": "I started learning it in the kindergarten and I am still learning it. I attended to two language exchange programs of three weeks each, one in London, Ontario, and the other one in Edinburgh, Scotland. I also have a TOEIC B2 certificate I got in 2017. I don't have a native level but I think it is quite good, it got me a job in 2018 and I worked for a little bit more than a year in an international environment (with Spanish, French, Italian, Romanian, Portuguese and Lithuanian people) using mainly English.",
-        "es": "Empecé a aprenderlo en preescolar y todavía sigo aprendiéndolo. Participé en dos programas de intercambio lingüístico de tres semanas cada uno, uno en London, Ontario, y el otro en Edimburgo, Escocia. También tengo un certificado TOEIC B2 que obtuve en 2017. No tengo un nivel nativo pero creo que es bastante bueno, me consiguió un trabajo en 2018 y trabajé durante un poco más de un año en un entorno internacional (con españoles, franceses, italianos, rumanos, portugueses y lituanos) usando principalmente el inglés.",
-        "fr": "J'ai commencé a l'apprendre à l'école maternelle et je l'apprendre encore. J'ai participé à deux programmes d'échange linguistique de trois semaines chacun, l'un à London, en Ontario, et l'autre à Édimbourg, en Écosse. J'ai aussi un certificat TOEIC B2 que j'ai obtenu en 2017. Je n'ai pas un niveau natif mais je pense qu'il est assez bon, il m'a permis d'obtenir un emploi en 2018 et j'ai travaillé pendant un peu plus d'un an dans un environnement international (avec des Espagnols, des Français, des Italiens, Roumains, des Portugais et des Lituaniens) en utilisant principalement l'anglais.",
-        "gl": "Comecei a aprendelo en preescolar e anínda sigo aprendéndoo. Participei en dous programas de intercambio ligüístico de tres semanas cada un, un en London, Ontario, e o outro en Edimburgo, Escocia. Tamén teño un certificado TOEIC B2 que obtiven en 2017. Non teño un nivel nativo pero creo que é bastante bo, conseguíume un traballo en 2018 e traballei durante un pouco máis dun ano nun entorno internacional (con españois, franceses, italianos, rumanos, portugueses e lituanos) empregando principalmente o inglés."
+        "en": "I started learning it in the kindergarten. When I finished highschool, I attended to two language exchange programs of three weeks each, one in London, Ontario, and the other one in Edinburgh, Scotland. I also have a TOEIC B2 certificate I got in 2017. I don't have a native level, but I think it is quite good, it got me a job in 2018 and I worked for a little bit more than a year in an international environment using mainly English.",
+        "es": "Empecé a aprenderlo en preescolar. Cuando terminé el instituto, participé en dos programas de intercambio lingüístico de tres semanas cada uno, uno en London, Ontario, y el otro en Edimburgo, Escocia. También tengo un certificado TOEIC B2 que obtuve en 2017. No tengo un nivel nativo, pero creo que es bastante bueno, me consiguió un trabajo en 2018 y trabajé durante un poco más de un año en un entorno internacional usando principalmente el inglés.",
+        "fr": "J'ai commencé a l'apprendre à l'école maternelle. Quand j'ai fini le lycée, j'ai participé à deux programmes d'échange linguistique de trois semaines chacun, l'un à London, en Ontario, et l'autre à Édimbourg, en Écosse. J'ai aussi un certificat TOEIC B2 que j'ai obtenu en 2017. Je n'ai pas un niveau natif, mais je pense qu'il est assez bon, il m'a permis d'obtenir un emploi en 2018 et j'ai travaillé pendant un peu plus d'un an dans un environnement international en utilisant principalement l'anglais.",
+        "gl": "Comecei a aprendelo en preescolar. Cando rematei o instituto, participei en dous programas de intercambio ligüístico de tres semanas cada un, un en London, Ontario, e o outro en Edimburgo, Escocia. Tamén teño un certificado TOEIC B2 que obtiven en 2017. Non teño un nivel nativo, pero creo que é bastante bo, conseguíume un traballo en 2018 e traballei durante un pouco máis dun ano nun entorno internacional utilizando principalmente o inglés."
     },
     "french": {
         "en": "French",
@@ -276,10 +258,10 @@ const i18nKeyValues = {
         "gl": "Francés"
     },
     "about-french": {
-        "en": "I studied it for two years in highschool and I lived for a little bit more than a year in France, where I started learning it again. I am not as fluent as in English but I was able to work in a French company during my stay there.",
-        "es": "Lo estudié durante dos años en el instituto y viví durante un poco más de un año en Francia, donde comencé de nuevo a estudiarlo. No lo hablo tan bien como en inglés pero fuí capaz de trabajar en una empresa francesa durante mi estancia allí.",
-        "fr": "Je l'ai étudié pendant deux ans au collège et j'ai habité pendant un peu plus d'un an en France, où j'ai recommence a l'étudier. Je ne le parle aussi bien que l'anglais mais j'ai pu travailler dans une enterprise française pendant mon séjour là-bas.",
-        "gl": "Estudieino durante dous anos no instituto e vivín duranto un pouco máis dun ano en Francia, onde comecei de novo a estudialo. Non o falo tan ben como o inglés pero fun capaz de traballar nunha empresa francesa durante a miña estancia alá."
+        "en": "I studied it for two years in highschool and I lived for a little bit more than a year in France. I am not as fluent as in English, but I was able to work in a French company during my stay there.",
+        "es": "Lo estudié durante dos años en el instituto y viví durante un poco más de un año en Francia. No lo hablo tan bien como el inglés, pero fuí capaz de trabajar en una empresa francesa durante mi estancia allí.",
+        "fr": "Je l'ai étudié pendant deux ans au collège et j'ai habité pendant un peu plus d'un an en France. Je ne le parle aussi bien que l'anglais, mais j'ai pu travailler dans une enterprise française pendant mon séjour là-bas.",
+        "gl": "Estudieino durante dous anos no instituto e vivín duranto un pouco máis dun ano en Francia. Non o falo tan ben como o inglés, pero fun capaz de traballar nunha empresa francesa durante a miña estancia alá."
     },
     "portuguese": {
         "en": "Portuguese",
@@ -306,10 +288,10 @@ const i18nKeyValues = {
         "gl": "Comecei a estudialo cando rematei o meu primer ano de universidade e, cando comecei o segundo, xa era capaz de falalo e entendelo en conversacións simples, pero tiven que deixalo por mor dos meus estudos. Non atopaba bos recursos para aprendelo en Internet e esa foi a razón pola que creei"
     },
     "about-finnish-2": {
-        "en": "in my free time. I am not spending time learning Finnish right now and I don't speak it as well as I did it in the past, but I promise to start again soon!",
-        "es": "en mi tiempo libre. Ahora mismo no le dedico ningún tiempo al finés y no lo hablo tan bien como lo hablé en el pasado, ¡pero prometo empezar de nuevo pronto!",
-        "fr": "pendant mon temps libre. Je ne passe pas de temps à apprendre le finnois et je ne parle pass aussi bien que dans le passé, mais je promets de recommencer bientôt !",
-        "gl": "no meu tempo libre. Agora mesmo non lle dedico ningún tempo ó finés e non o falo tan ben como o falaba no pasado, pero prometo comezar de novo pronto!"
+        "en": "in my free time. I am not spending time learning Finnish right now and I don't speak it as well as I did it in the past, but I want to start again soon.",
+        "es": "en mi tiempo libre. Ahora mismo no le dedico ningún tiempo al finés y no lo hablo tan bien como lo hablé en el pasado, pero quiero empezar de nuevo pronto.",
+        "fr": "pendant mon temps libre. Je ne passe pas de temps à apprendre le finnois et je ne parle pass aussi bien que dans le passé, mais je veux recommencer bientôt.",
+        "gl": "no meu tempo libre. Agora mesmo non lle dedico ningún tempo ó finés e non o falo tan ben como o falaba no pasado, pero quero comezar de novo pronto."
     },
     "polish": {
         "en": "Polish",
@@ -318,10 +300,52 @@ const i18nKeyValues = {
         "gl": "Polaco"
     },
     "about-polish": {
-        "en": "It is the last language I started studying and I am not really good at it yet. I can only say really simple sentences. There is still a lot of hard work to do!",
-        "es": "Es el último idioma que comencé a estudiar y aún no soy muy bueno. Solamente puedo decir frases muy simples. ¡Aún queda mucho trabajo por hacer!",
-        "fr": "C'est la dernière langue que j'ai commencé à étudier et je ne suis pas encore très bon. Je ne peux dire que des phrases très simples. Il y a encore beaucoup de travail à faire !",
-        "gl": "É a última lingua que comecei a estudar e aínda non son moi bo. So podo dicir frases moi simples. Aínda queda moito traballo por facer!"
+        "en": "It is the last language I started studying and I am not really good at it yet. I can only say really simple sentences.",
+        "es": "Es el último idioma que comencé a estudiar y aún no soy muy bueno. Solamente puedo decir frases muy simples.",
+        "fr": "C'est la dernière langue que j'ai commencé à étudier et je ne suis pas encore très bon. Je ne peux dire que des phrases très simples.",
+        "gl": "É a última lingua que comecei a estudar e aínda non son moi bo. So podo dicir frases moi simples."
+    },
+    "oppi-brief": {
+        "en": "Web app for practicing word inflection in Finnish",
+        "es": "App web para practicar la flexión de palabras en finés",
+        "fr": "Appli web pour pratiquer la flexion des mots en finnois",
+        "gl": "App web para practicar a flexión de palabras en finés"
+    },
+    "page": {
+        "en": "page",
+        "es": "página",
+        "fr": "page",
+        "gl": "páxina"
+    },
+    "about-oppi-1": {
+        "en": "Oppi is a web app that I made to improve my experience learning how to inflect words in Finnish. It is developed in Angular and it uses the IndexedDB to store data.",
+        "es": "Oppi es una web app que hice para mejorar mi experiencia de aprendizaje de la flexión de las palabras en finés. Está desarrollada en Angular y usa la IndexedDB para almacenar datos.",
+        "fr": "Oppi est une appli web que j'ai créée pour améliorer mon experience en apprenant la flexion des mots en finnois. Elle est développée en Angular et utilise l'IndexedDB pour stocker des données.",
+        "gl": "Oppi é unha web app que fixen para mellorar a miña experiencia de aprendizaxe da flexión das palabras en finés. Está desenvolvida en Angular e emprega a IndexedDB para almacenar datos."
+    },
+    "about-oppi-2": {
+        "en": "When I started studying Finnish, one of the things that I did was to try to inflect as many nominals and verbs as I could. I was doing it in tables in LibreOffice and then I checked in Wiktionary if I did it right, but, as you can imagine, it was quite a tedious task. In Finnish, nominals have 15 cases in singular and plural form and verbs have 4 moods, 2 tenses for each mood (4 in indicative mood), 2 voices (one of them with 6 persons) and they also have nominal forms. So checking a table for each word in a LibreOffice document using the Wiktionary page was quite slow, therefore I came with the idea of oppi.",
+        "es": "Cuando comencé a estudiar finés, una de las cosas que hacía era intentar flexionar tantos nominales y verbos como podía. Lo hacía en tablas en LibreOffice y luego comprobaba en Wiktionary si lo había hecho bien, pero, como podéis imaginar, era una tarea bastante tediosa. En finlandés, los nominales tienen 15 casos en singular y en plural y los verbos tienen 4 modos, 2 tiempos por cada modo (4 en modo indicativo), 2 voces (una de ellas con 6 personas) y también tienen formas nominales. Entonces, comprobar una tabla por cada palabra en un documento de LibreOffice usando la página de Wiktionary era bastante lento, por lo que me vino la idea de oppi a la cabeza.",
+        "fr": "Quand j'ai commencé a étudier finnois, une des choses que je faisais était essayer de faire la flexion de autants nominaux et verbes que possible. Je faisait ça dans tables en LibreOffice et après je vérifiais dans Wiktionary si je l'avais bien fait, mais, comme vous pouvez l'imaginer, c'était une tâche assez fastidieuse. En finnois, les nominaux ont 15 cas au singulier et au pluriel et les verbes ont 4 modes, 2 temps par chaque mode (4 en mode indicatif), 2 voix (une avec 6 personnes) et ils ont aussi des formes nominaux. Ensuite, vérifier une table pour chaque mot dans un document LibreOffice en utilisant la page de Wiktionary était assez lent, donc l'idée de oppi m'est venue à l'esprit.",
+        "gl": "Cando comecei a estudar finés, unha das cousas que facía era tentar flexionar tantos nominais e verbos como podía. Facíao en táboas en LibreOffice e despois comprobaba en Wiktionary se o fixera ben, pero, como podedes imaxinar, era unha tarefa bastante tediosa. En finés, os nominais teñen 15 casos en singular e plural e os vebos teñen 4 modos, 2 tempos por modo (4 en modo indicativo), 2 voces (unha delas con 6 persoas) e tamén teñen formas nominais. Logo comprobar unha táboa por cada palabra nun documento de LibreOffice empregando a páxina de Wiktionary era bastante lento, polo que me veu a ide de oppi á cabeza."
+    },
+    "about-oppi-3": {
+        "en" : "The way it works is simple: first you search for a word in the search input and then the app generates a table that you have to fill. After doing it, you press the check button and the app highlights the words you entered right and wrong in different colors. It also has the option to see the word inflection directly and the option of getting a random word. It has a tutorial explaining better how it works inside the app that is shown the first time that is used.",
+        "es": "El funcionamiento es simple: primero se busca una palabra en el input de búsqueda y después la app genera una tabla que hay que rellenar. Después de haderlo, se presiona el botón de chequear y la app resalta las palabras que se metieron bien y mal con colores diferentes. También tiene la opción de ver la flexión de la palabra directamente y la opción de obtener una palabra aleatoria. Tiene un tutorial explicando mejor cómo funciona dentro de la app que se muestra la primera vez que se usa.",
+        "fr": "Le fonctionnement est simple : d'abord on recherche un mot dans la saisie de recherche, puis l'appli génère une table que on doit remplir. Ensuite, on appuye sur le bouton de vérification et l'appli souligne les mot que on a mis, bons et mauvais, avec des coleurs différentes. Elle a aussi l'option de voir directement la flexion du mot et l'option d'obtenir un mot aléatoire. Il y a un tutoriel qui explique mieux le fonctionnement dans l'appli lequel est montré la première fois qu'elle est utilisée.",
+        "gl": "O funcionamento é simple: primeiro se busca unha palabra no input de busca e despois a app xera unha táboa que hai que encher. Despois de facelo, prémese o botón de chequear e a app resalta as palabras que se meteron ben e mal con cores diferentes. Tamén ten a opción de ver a flexión da palabra directamente e a opción de obter unha palabra aleatoria. Ten un tutorial explicando mellor como funciona dentro da app que se mostra a primeira vez que se usa."
+    },
+    "about-oppi-4": {
+        "en": "I made it a PWA so you can have it on your phone as it was a native app. As it doesn't have a back end to get the words (it is hosted in GitHub Pages), it needs to have all the words in advance to work. To do so, the first time it loads on the browser, it downloads a file with about 58000 words that I extracted from Wiktionary using a Python script, and it stores these words in the IndexedDB, therefore it doesn't have to download them again each time it is used. Taking that in account, the first time it loads it needs some seconds to do it, so be patient.",
+        "es" : "La hice PWA para que pueda tenerse en el teléfono como si fuese una app nativa. Como no tiene back end para traerse las palabras (está hosteado en GitHub Pages), necesita tener todas las palabras de antemano para funcionar. Para hacer eso, la primera vez que se carga en el navegador, se baja un archivo con alrededor de 58000 palabras que extraje de Wiktionary usando un script en Python, y guarda esas palabras en la IndexedDB, entonces no tiene que bajarlas otra vez cada vez que se usa. Teniendo eso en cuenta, la primera vez que carga necesita varios segundos para hacerlo, por lo que hay que ser paciente.",
+        "fr": "Je l'ai fait PWA pour pouvoir l'avoir au téléphone comme une appli native. Comme il n'y a pas de back end pour obtenir les mots (elle est dans GitHub Pages), elle a besoin d'avoir tous les mots à l'avance pour fonctionner. Pour faire ça, la première fois qu'on la télécharge dans le navigateur, elle télécharge un fichier contenant enviro 58000 mots que j'ai extrait du Wiktionary avec un script en Python, et enregistre ces mots dans l'IndexedDB, donc il ne faut pas les télécharger à nouveau chaque fois que elle est utilisée. Dans cette optique, la première fois que on télécharge l'appli elle a besoin de quelques secondes pour le faire, il faut donc être patient.",
+        "gl": "A fixen PWA para que poida terse no teléfono coma se fose unha app nativa. Como non ten back end para traer as palabras (está hosteado en GitHub Pages), necesita ter todas as palabras de antemán para funcionar. Para facer iso, a primeira vez que se carga no navegador, báixase un ficheiro con ó redor de 58000 palabras que extraín do Wiktionary empregando un script en Python, e garda esas palabras na IndexedDB, logo non teng que baixalas de novo cada vez que se usa. Tendo isto en conta, a primeira vez que carga necesita varios segundos para facelo, polo que hai que ser paciente."
+    },
+    "piollo-brief": {
+        "en": "Web client for the Raspberry Pi camera module",
+        "es": "Cliente web para el módulo de cámara de Raspberry Pi",
+        "fr": "Client web pour le module caméra de Raspberry Pi",
+        "gl": "Cliente web para o módulo de cámara de Raspberry Pi"
     }
 }
 

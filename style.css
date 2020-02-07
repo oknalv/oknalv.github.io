@@ -365,6 +365,16 @@ div.lateral-bar:nth-last-child(2) {
     content: "☆";
 }
 
+/* PROJECTS */
+
+#projects > h2:not(:first-of-type) {
+    margin-top: 20px;
+}
+
+h2 > img {
+    height: 40px;
+}
+
 /* LANGUAGE SELECTOR */
 
 #lang-selector {
