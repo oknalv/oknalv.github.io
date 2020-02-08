@@ -2,13 +2,15 @@ import i18nKeyValues from "./i18n.js";
 const i18nElements = document.querySelectorAll('[data-i18n]');
 const langSelector = document.getElementById("lang-selector");
 const headerHome = document.getElementById("header-home");
-const collapsers = document.getElementsByClassName("collapser");
+const imgViewer = document.getElementById("img-viewer");
+const imgViewerImg = imgViewer.children[1].children[0];
 const sections = {
     "home" : document.getElementById("home"),
     "experience" : document.getElementById("experience"),
     "education" : document.getElementById("education"),
     "skills" : document.getElementById("skills"),
-    "projects" : document.getElementById("projects")
+    "projects" : document.getElementById("projects"),
+    "contact" : document.getElementById("contact")
 };
 const defaultLanguage = "en";
 const languageList = {
@@ -31,7 +33,7 @@ window.navigate = (path) => {
     if(!changingPath){
         if(currentPath != path){
             changingPath = true;
-            document.body.classList.remove("home", "experience", "education", "skills", "projects");
+            document.body.classList.remove("home", "experience", "education", "skills", "projects", "contact");
             if(path == "home"){
                 headerHome.classList.add("home");
                 sections[path].classList.remove("hide");
@@ -81,6 +83,10 @@ window.closeLangSelector = () => {
     langSelector.classList.remove("selecting");
 }
 
+window.closeImgViewer = () => {
+    imgViewer.classList.remove("open");
+}
+
 const startLangSelector = () => {
     for(let key in languageList){
         let option = document.createElement("div");
@@ -100,7 +106,7 @@ const startLangSelector = () => {
 }
 
 const startCollapsers = () => {
-    for(let collapser of collapsers){
+    for(let collapser of document.getElementsByClassName("collapser")){
         let collapsable = collapser.nextElementSibling;
         collapser.onclick = () => {
             if(collapsable.classList.contains("collapsed")){
@@ -138,6 +144,20 @@ const startLangLevel = () => {
     }
 }
 
+const startGalleries = () => {
+    for(let gallery of document.getElementsByClassName("gallery")){
+        console.log(gallery.children[0].src)
+        for(let img of gallery.children){
+            img.onclick = () => {
+                console.log(imgViewerImg, img);
+                imgViewerImg.src = img.src;
+                imgViewer.classList.add("open");
+            }
+        }
+    }
+}
+
 startLangSelector();
 startCollapsers();
 startLangLevel();
+startGalleries();

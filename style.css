@@ -108,7 +108,7 @@ img.me {
     display: flex;
     list-style-type: none;
     padding: 0;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-end;
     overflow-x: auto;
 }
@@ -124,16 +124,9 @@ img.me {
     font-weight: bold;
 }
 
-body.experience [data-i18n="experience"],
-body.education [data-i18n="education"],
-body.skills [data-i18n="skills"],
-body.projects [data-i18n="projects"] {
-    font-size: 1.5em;
-}
-
 .menu > ul > li::after {
     content: " ";
-    background-color: var(--content-background-color);
+    background-color: var(--title-color);
     position: absolute;
     width: 100%;
     height: 3px;
@@ -148,12 +141,24 @@ body.projects [data-i18n="projects"] {
     transform: scaleX(1);
 }
 
-body.experience [data-i18n="experience"]::after,
-body.education [data-i18n="education"]::after,
-body.skills [data-i18n="skills"]::after,
-body.projects [data-i18n="projects"]::after {
-    transform: scaleX(1);
-    background-color: var(--title-color);
+nav.menu > ul > li {
+    transition: font-size var(--switch-tab-time) ease,
+    padding var(--switch-tab-time) ease,
+    opacity var(--switch-tab-time) ease var(--switch-tab-time);
+}
+
+body.experience nav.menu [data-i18n="experience"],
+body.education nav.menu [data-i18n="education"],
+body.skills nav.menu [data-i18n="skills"],
+body.projects nav.menu [data-i18n="projects"],
+body.contact nav.menu [data-i18n="contact"] {
+    opacity: 0;
+    padding: 0;
+    font-size: 0;
+    transition: opacity var(--switch-tab-time) ease,
+        font-size var(--switch-tab-time) ease var(--switch-tab-time),
+        padding var(--switch-tab-time) ease var(--switch-tab-time);
+
 }
 
 /* PAGE SECTIONS */
@@ -174,7 +179,8 @@ body.home #content {
 #education,
 #experience,
 #skills,
-#projects {
+#projects,
+#contact {
     opacity: 0;
     transition: opacity var(--switch-section-time) ease;
 }
@@ -182,7 +188,8 @@ body.home #content {
 body.education #education,
 body.experience #experience,
 body.skills #skills,
-body.projects #projects {
+body.projects #projects,
+body.contact #contact {
     opacity: 1;
 }
 
@@ -207,6 +214,10 @@ body.projects #projects {
 
 .hide {
     display: none !important;
+}
+
+#content h1 {
+    padding: 10px 0;
 }
 
 /*EXPERIENCE*/
@@ -271,10 +282,6 @@ div.lateral-bar:nth-last-child(2) {
     margin-bottom: 40px
 }
 
-.job > ul > li:not(:last-child){
-    margin-bottom: 10px;
-}
-
 [data-i18n="note"] {
     font-style: italic;
     font-weight: bold;
@@ -284,10 +291,6 @@ div.lateral-bar:nth-last-child(2) {
 
 #education > ul:not(:last-child){
     margin-bottom: 40px;
-}
-
-#education > ul > li:not(:last-child){
-    margin-bottom: 10px;
 }
 
 #education > ul > li h2 {
@@ -341,14 +344,19 @@ div.lateral-bar:nth-last-child(2) {
 }
 
 .collapsable h2,
-.collapsable h3 {
-    transition: padding var(--collapser-time) ease;
+.collapsable h3,
+.collapsable li {
+    transition: padding var(--collapser-time) ease,
+        margin var(--collapser-time) ease;
 }
 
 .collapsable.collapsed h2,
-.collapsable.collapsed h3 {
+.collapsable.collapsed h3,
+.collapsable.collapsed li {
     padding: 0 !important;
-    transition: padding var(--collapser-time) ease var(--collapser-time);
+    margin: 0 !important;
+    transition: padding var(--collapser-time) ease var(--collapser-time),
+        margin var(--collapser-time) ease var(--collapser-time);
 }
 
 .star,
@@ -367,12 +375,62 @@ div.lateral-bar:nth-last-child(2) {
 
 /* PROJECTS */
 
-#projects > h2:not(:first-of-type) {
+#projects > header:not(:first-of-type) {
     margin-top: 20px;
 }
 
-h2 > img {
+#projects > header > h2 > img {
     height: 40px;
+}
+
+#projects > header.collapser:after{
+    display: none;
+}
+
+#projects > header.collapser > h3:after{
+    display: inline-block;
+    content: "❯";
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 10px;
+    transition: transform var(--collapser-time) ease;
+}
+
+#projects > header.collapser.rotate > h3:after {
+    transform: rotate(90deg);
+}
+
+.job > ul > li:not(:last-child),
+#education > ul > li:not(:last-child),
+#projects li:not(:last-child),
+#skills li:not(:last-child),
+#contact li:not(:last-child) {
+    margin-bottom: 10px
+}
+
+.gallery {
+    --galery-height: 300px;
+    height: var(--galery-height);
+    overflow-y: hidden;
+    overflow-x: auto;
+    display: flex;
+    transition: height var(--collapser-time) ease;
+    margin-top: 10px;
+}
+
+.gallery > img {
+    height: var(--galery-height);
+}
+
+.gallery > img:not(:last-child){
+    margin-right: 10px;
+}
+
+.collapsed .gallery{
+    height: 0;
+    margin: 0;
+    transition: height var(--collapser-time) ease var(--collapser-time),
+    margin var(--collapser-time) ease var(--collapser-time);
 }
 
 /* LANGUAGE SELECTOR */
@@ -428,4 +486,47 @@ h2 > img {
 #lang-selector.selecting + #lang-selector-shade{
     visibility: initial;
     opacity: .5;
+}
+
+/* IMAGE VIEWER*/
+
+#img-viewer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    visibility: hidden;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity var(--switch-language-time) ease;
+}
+#img-viewer.open{
+    visibility: initial;
+    opacity: 1;
+}
+
+#img-viewer > div:first-child {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--background-color);
+    opacity: .5;
+}
+#img-viewer > div:last-child {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: scroll;
+} 
+
+#img-viewer img {
+    padding: 10px;
+    cursor: pointer;
+    max-width: 100%;
 }
