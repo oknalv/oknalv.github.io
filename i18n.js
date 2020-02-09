@@ -156,7 +156,7 @@ const i18nKeyValues = {
         "gl": "Curso de Scrum con certificado Scrum Manager Expert"
     },
     "toeic": {
-        "en": "English certificate TOEIC B2",
+        "en": "TOEIC B2 English certificate",
         "es": "Certificado de inglés TOEIC B2",
         "fr": "Certificat d'anglais TOEIC B2",
         "gl": "Certificado de inglés TOEIC B2"

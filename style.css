@@ -118,10 +118,14 @@ img.me {
     padding: 5px 10px;
     cursor: pointer;
     position: relative;
-    transition: font-size var(--switch-tab-time) ease;
     text-align: center;
-    flex-wrap: wrap;
     font-weight: bold;
+    box-sizing: border-box;
+    transition: font-size var(--switch-tab-time) ease,
+        padding var(--switch-tab-time) ease,
+        margin var(--switch-tab-time) ease,
+        background-color var(--switch-tab-time) ease,
+        opacity var(--switch-tab-time) ease var(--switch-tab-time);
 }
 
 .menu > ul > li::after {
@@ -141,10 +145,22 @@ img.me {
     transform: scaleX(1);
 }
 
-nav.menu > ul > li {
-    transition: font-size var(--switch-tab-time) ease,
-    padding var(--switch-tab-time) ease,
-    opacity var(--switch-tab-time) ease var(--switch-tab-time);
+body.home .menu > ul {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+body.home .menu > ul > li {
+    background-color: var(--content-background-color);
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+body.home .menu > ul > li::after {
+    border-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 5px;
 }
 
 body.experience nav.menu [data-i18n="experience"],
