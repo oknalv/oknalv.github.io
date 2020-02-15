@@ -359,6 +359,18 @@ const i18nKeyValues = {
         "fr": "J'ai eu l'idée de faire piollo parce que, il y a quelques années, après avoir acheté le Raspberry Pi, je me suis demandé ce que pouvais faire avec lui. Après avoir vu ses modules disponibles, j'ai acheté le module NoIR Camera, une caméra qui n'a pas de filtre infrarouge, et j'ai pensé que, avec quelques LED infrarouges, je pourrais avoir une caméra qui pourrait être utilisé comme une caméra de sécurité qui pourrait voir dans le noir. Mais, pour accéder à la caméra, j'ai dû connecter le Raspberry Pi au moniteur et lancer l'appli de bureau. J'ai pensé que ce serait une bonne idée qu'il soit accessible à partir de différents appareils, donc, comme je ne trouvais rien déjà fait à l'époque qui puisse résoudre ce problème, je l'ai fait moi-même.",
         "gl": "Tiven a idea de facer piollo porque, fai uns anos, despois de comprar a Raspberry Pi, preguntábame que podía facer con ela. Despois de ver os seus módulos dispoñibles, comprei o módulo NoIR Camera, unha cámara que non ten o filtro de infravermellos, e pensei que, con algúns leds infravermellos, podía ter unha cámara que podería ser empregada como unha cámara de seguridade que poidese ver na escuridade. Pero, para acceder á cámara, tiña que conectar a Raspberry Pi ó monitor e lanzar a aplicación de escritorio. Pensei que serñia xenial se fose accesible dende diferentes dispositivos, entón, como non atopaba nada xa feito nesa época que solucionase ese problema, fíxeno eu mesmo."
     },
+    "tfg": {
+        "en": "keypointextractor and serkisplugin",
+        "es": "keypointextractor y serkisplugin",
+        "fr": "keypointextractor et serkisplugin",
+        "gl": "keypointextractor e serkisplugin",
+    },
+    "tfg-brief": {
+        "en": "Facial movement tracking and a 3D model rigging in Blender",
+        "es": "Tracking de movimientos faciales y control de movimiento de un modelo 3D en Blender",
+        "fr": "Tracking des mouvements du visage et contrôle du mouvement d'un modèle 3D dans Blender",
+        "gl": "Tracling de movementos faciais e control do movemento dun modelo 3D en Blender"
+    },
     "screenshots": {
         "en": "screenshots",
         "es": "capturas de pantalla",

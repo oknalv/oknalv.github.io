@@ -21,7 +21,7 @@ body {
 
 body {
     position: relative;
-    max-width: 750px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 5px;
     display: flex;
@@ -424,6 +424,15 @@ div.lateral-bar:nth-last-child(2) {
     margin-bottom: 10px
 }
 
+#projects h2 {
+    display: flex;
+    align-items: center;
+}
+
+#projects h2 > *:not(:first-child) {
+    margin-left: 10px;
+}
+
 .gallery {
     --galery-height: 300px;
     height: var(--galery-height);
@@ -447,6 +456,24 @@ div.lateral-bar:nth-last-child(2) {
     margin: 0;
     transition: height var(--collapser-time) ease var(--collapser-time),
     margin var(--collapser-time) ease var(--collapser-time);
+}
+
+/* CONTACT */
+
+#contact div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+#contact a {
+    display: flex;
+    align-items: center;
+    font-size: 1.25em;
 }
 
 /* LANGUAGE SELECTOR */

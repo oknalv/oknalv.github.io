@@ -146,7 +146,6 @@ const startLangLevel = () => {
 
 const startGalleries = () => {
     for(let gallery of document.getElementsByClassName("gallery")){
-        console.log(gallery.children[0].src)
         for(let img of gallery.children){
             img.onclick = () => {
                 console.log(imgViewerImg, img);
