@@ -1,7 +1,7 @@
 /* GENERAL */
 *{
     box-sizing: border-box;
-    text-align: justify;
+    text-align: left;
     font-family: monospace;
     --background-color: #002b36;
     --content-background-color: #073642;
@@ -9,6 +9,7 @@
     --title-color: #2aa198;
     --link-color: #268bd2;
     --star-color: #b58900;
+    --line-height: 1.6em;
 }
 
 html {
@@ -16,6 +17,7 @@ html {
     background-color: var(--background-color);
     color: var(--text-color);
     height: 100%;
+    line-height: var(--line-height);
 }
 
 body {
@@ -32,12 +34,14 @@ h1 {
     font-size: 2em;
     margin: 0;
     color: var(--title-color);
+    line-height: var(--line-height);
 }
 
 h2 {
     font-size: 1.5em;
     margin: 0;
     color: var(--title-color);
+    line-height: var(--line-height);
 }
 
 h3 {
@@ -45,11 +49,13 @@ h3 {
     margin: 0;
     font-weight: normal;
     font-style: italic;
+    line-height: var(--line-height);
 }
 
 h4 {
     font-size: 1.125em;
     margin: 0;
+    line-height: var(--line-height);
 }
 
 a {
@@ -213,18 +219,22 @@ body.contact #contact {
     font-size: 0;
     opacity: 0;
     padding: 0;
+    line-height: 0em;
     overflow: hidden;
     transition: opacity var(--switch-section-time) ease,
         font-size var(--switch-section-time) ease var(--switch-section-time),
-        padding var(--switch-section-time) ease var(--switch-section-time);
+        padding var(--switch-section-time) ease var(--switch-section-time),
+        line-height var(--switch-section-time) ease var(--switch-section-time);
 }
 
 #header-home.home #home {
     opacity: 1;
     padding: 1em 0;
+    line-height: inherit;
     font-size: inherit;
     transition: font-size var(--switch-section-time) ease,
         padding var(--switch-section-time) ease,
+        line-height var(--switch-section-time) ease,
         opacity var(--switch-section-time) ease var(--switch-section-time);
 }
 
@@ -233,7 +243,15 @@ body.contact #contact {
 }
 
 #content h1 {
-    padding: 10px 0;
+    margin: .5em 0;
+}
+
+#content li {
+    padding: .5em 0;
+}
+
+#content ul {
+    margin: 0;
 }
 
 /*EXPERIENCE*/
@@ -339,40 +357,23 @@ div.lateral-bar:nth-last-child(2) {
 .collapsable {
     opacity: 1;
     font-size: inherit;
+    line-height: inherit;
     transition: font-size var(--collapser-time) ease,
+        line-height var(--collapser-time) ease,
         opacity var(--collapser-time) ease var(--collapser-time);
 }
 
 .collapsable.collapsed {
     font-size: 0;
     opacity: 0;
-    overflow: hidden;
+    line-height: 0em;
     transition: opacity var(--collapser-time) ease,
-        font-size var(--collapser-time) ease var(--collapser-time);
+        font-size var(--collapser-time) ease var(--collapser-time),
+        line-height var(--collapser-time) ease var(--collapser-time);
 }
 
-#skills h2 {
-    padding: 10px 0;
-}
-
-#skills h3 {
-    padding: 5px 0;
-}
-
-.collapsable h2,
-.collapsable h3,
-.collapsable li {
-    transition: padding var(--collapser-time) ease,
-        margin var(--collapser-time) ease;
-}
-
-.collapsable.collapsed h2,
-.collapsable.collapsed h3,
-.collapsable.collapsed li {
-    padding: 0 !important;
-    margin: 0 !important;
-    transition: padding var(--collapser-time) ease var(--collapser-time),
-        margin var(--collapser-time) ease var(--collapser-time);
+#skills > h2 {
+    padding: .5em 0;
 }
 
 .star,
@@ -416,21 +417,18 @@ div.lateral-bar:nth-last-child(2) {
     transform: rotate(90deg);
 }
 
-.job > ul > li:not(:last-child),
-#education > ul > li:not(:last-child),
-#projects li:not(:last-child),
-#skills li:not(:last-child),
-#contact li:not(:last-child) {
-    margin-bottom: 10px
-}
-
 #projects h2 {
     display: flex;
     align-items: center;
+    margin: .5em 0;
 }
 
 #projects h2 > *:not(:first-child) {
     margin-left: .5em;
+}
+
+#projects h3 {
+    margin: .5em 0;
 }
 
 .gallery {
@@ -463,17 +461,20 @@ div.lateral-bar:nth-last-child(2) {
 #contact div {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 #contact img {
     width: 50px;
-    margin-right: 1em;
+    margin-bottom: .5em;
 }
 
 #contact a {
     display: flex;
     align-items: center;
+    flex-direction: column;
     font-size: 1.25em;
+    margin: .5em;
 }
 
 /* LANGUAGE SELECTOR */
