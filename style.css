@@ -1,6 +1,5 @@
 /* GENERAL */
 *{
-    font-size: 1em;
     box-sizing: border-box;
     text-align: justify;
     font-family: monospace;
@@ -12,14 +11,15 @@
     --star-color: #b58900;
 }
 
-html,
-body {
-    height: 100%;
+html {
+    font-size: 16px;
     background-color: var(--background-color);
     color: var(--text-color);
+    height: 100%;
 }
 
 body {
+    height: 100%;
     position: relative;
     max-width: 1000px;
     margin: 0 auto;
@@ -88,7 +88,7 @@ img.me {
 }
 
 #header > div {
-    margin-left: 10px;
+    margin-left: 1em;
 }
 
 @media (pointer:coarse){
@@ -221,7 +221,7 @@ body.contact #contact {
 
 #header-home.home #home {
     opacity: 1;
-    padding: 15px 0;
+    padding: 1em 0;
     font-size: inherit;
     transition: font-size var(--switch-section-time) ease,
         padding var(--switch-section-time) ease,
@@ -241,7 +241,7 @@ body.contact #contact {
 #jobs {
     flex-grow: 1;
     display: grid;
-    grid-template-columns: 150px min-content auto;
+    grid-template-columns: 200px min-content auto;
     --bar-width: 10px;
     --bar-margin: 10px;
     --bar-border-radius: calc(var(--bar-width)/4)
@@ -295,7 +295,7 @@ div.lateral-bar:nth-last-child(2) {
 }
 
 .job:not(:last-child) {
-    margin-bottom: 40px
+    margin-bottom: 2em;
 }
 
 [data-i18n="note"] {
@@ -306,7 +306,7 @@ div.lateral-bar:nth-last-child(2) {
 /* EDUCATION */
 
 #education > ul:not(:last-child){
-    margin-bottom: 40px;
+    margin-bottom: 2em;
 }
 
 #education > ul > li h2 {
@@ -328,7 +328,7 @@ div.lateral-bar:nth-last-child(2) {
     content: "❯";
     font-weight: bold;
     font-style: normal;
-    margin-left: 10px;
+    margin-left: .5em;
     transition: transform var(--collapser-time) ease;
 }
 
@@ -392,7 +392,7 @@ div.lateral-bar:nth-last-child(2) {
 /* PROJECTS */
 
 #projects > header:not(:first-of-type) {
-    margin-top: 20px;
+    margin-top: 2em;
 }
 
 #projects > header > h2 > img {
@@ -408,7 +408,7 @@ div.lateral-bar:nth-last-child(2) {
     content: "❯";
     font-weight: bold;
     font-style: normal;
-    margin-left: 10px;
+    margin-left: .5em;
     transition: transform var(--collapser-time) ease;
 }
 
@@ -430,7 +430,7 @@ div.lateral-bar:nth-last-child(2) {
 }
 
 #projects h2 > *:not(:first-child) {
-    margin-left: 10px;
+    margin-left: .5em;
 }
 
 .gallery {
@@ -440,7 +440,7 @@ div.lateral-bar:nth-last-child(2) {
     overflow-x: auto;
     display: flex;
     transition: height var(--collapser-time) ease;
-    margin-top: 10px;
+    margin-top: 1em;
 }
 
 .gallery > img {
@@ -448,7 +448,7 @@ div.lateral-bar:nth-last-child(2) {
 }
 
 .gallery > img:not(:last-child){
-    margin-right: 10px;
+    margin-right: .5em;
 }
 
 .collapsed .gallery{
@@ -467,7 +467,7 @@ div.lateral-bar:nth-last-child(2) {
 
 #contact img {
     width: 50px;
-    margin-right: 10px;
+    margin-right: 1em;
 }
 
 #contact a {
@@ -510,7 +510,7 @@ div.lateral-bar:nth-last-child(2) {
 }
 
 #lang-selector.selecting > div:not(:last-child){
-    margin-bottom: 10px;
+    margin-bottom: 1em;
 }
 
 #lang-selector-shade {

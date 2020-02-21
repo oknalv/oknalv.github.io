@@ -48,6 +48,7 @@ window.navigate = (path) => {
                 sections[path].classList.remove("hide");
                 setTimeout(() => {
                     document.body.classList.add(path);
+                    closeCollapsers(document);
                     changingPath = false;
                 }, switchSectionTime);
             }, switchSectionTime);
@@ -105,6 +106,12 @@ const startLangSelector = () => {
     }
 }
 
+const closeCollapsers = (parent) => {
+    for(let col of parent.querySelectorAll(".collapser.rotate")){
+        col.onclick();
+    }
+}
+
 const startCollapsers = () => {
     for(let collapser of document.getElementsByClassName("collapser")){
         let collapsable = collapser.nextElementSibling;
@@ -116,9 +123,7 @@ const startCollapsers = () => {
             else {
                 collapsable.classList.add("collapsed");
                 collapser.classList.remove("rotate");
-                for(let col of collapsable.querySelectorAll(".collapser.rotate")){
-                    col.onclick();
-                }
+                closeCollapsers(collapsable);
             }
         }
         if(collapsable.classList.contains("collapsed")){
