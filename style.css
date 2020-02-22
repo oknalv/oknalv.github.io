@@ -431,9 +431,17 @@ div.lateral-bar:nth-last-child(2) {
     margin: .5em 0;
 }
 
-#projects > .collapsable,
-#projects > .collapsable.collapsed {
+#projects > .collapsable {
     margin-left: 20px;
+}
+
+#projects > .collapsable iframe  {
+    margin-left: 20px;
+    transition: height var(--collapser-time) ease var(--collapser-time);
+}
+
+#projects > .collapsable.collapsed {
+    height: 0;
 }
 
 .gallery {
