@@ -369,7 +369,19 @@ const i18nKeyValues = {
         "en": "Facial movement tracking and a 3D model rigging in Blender",
         "es": "Tracking de movimientos faciales y control de movimiento de un modelo 3D en Blender",
         "fr": "Tracking des mouvements du visage et contrôle du mouvement d'un modèle 3D dans Blender",
-        "gl": "Tracling de movementos faciais e control do movemento dun modelo 3D en Blender"
+        "gl": "Tracking de movementos faciais e control do movemento dun modelo 3D en Blender"
+    },
+    "about-tfg-1": {
+        "en": "This is my Bachelor's Degree final project. It consists in two subprojects: the first one, keypointextractor, is a program that extracts facial keypoints from a video and the second one, serkisplugin, is a plugin for Blender that uses those extracted keypoints to animate a 3D model of a face. You can see the outcome of this project in the following video:",
+        "es": "Este es mi proyecto de fin de grado. Consiste en dos subproyectos: el primero, keypointextractor, es un programa que extrae puntos clave faciales de un vídeo y el segundo, serkisplugin, es un plugin para Blender que usa los puntos extraídos para animar un modelo 3D de una cara. Podéis ver el resultado de este proyecto en el siguiente video:",
+        "fr": "C'est mon projet de fin d'études. Il consiste en deux sous-projets: le premier, keypointextractor, est un programme qui extrait les points clés du visage d'une vidéo et le second, serkisplugin, est un plugin pour Blender qui utilise les points extraits pour animer un modèle 3D d'un visage. Vous pouvez voir le résultat de ce projet dans la vidéo suivante:",
+        "gl": "Este é o meu proxecto de fin de grao. Consiste en dous subproxectos: o primeiro, keypointextractor, é un programa que extrae puntos clave faciais dun víde e o segundo, serkisplugin, é un plugin para Blender que usa os puntos extraídos para animar un modelo 3D dunha cara. Podedes ver o resultado deste proxectp no seguinte vídeo:"
+    },
+    "about-tfg-2": {
+        "en": "For this project, I've used Python with the libraries dlib, OpenCV and Qt for keypointextractor and Python with the Blender API for serkisplugin.",
+        "es": "Para este proyecto, he utilizado Python con las bibliotecas dlib, OpenCV y Qt para keypointextractor y Python con el API de Blender para serkisplugin.",
+        "fr": "Pour ce projet, j'ai utilisé Python avec les bibliothèques dlib, OpenCV et Qt pour keypointextractor et Python avec l'API Blender pour serkisplugin.",
+        "gl": "Para este proxecto, utilicei Python coas bibliotecas dlib, OpenCV e Qt para keypointextractor e Python coa API de Blender para serkisplugin."
     },
     "screenshots": {
         "en": "screenshots",
