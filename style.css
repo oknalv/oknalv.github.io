@@ -437,11 +437,11 @@ div.lateral-bar:nth-last-child(2) {
 
 #projects > .collapsable iframe  {
     margin-left: 20px;
-    transition: height var(--collapser-time) ease var(--collapser-time);
 }
 
-#projects > .collapsable.collapsed {
+#projects > .collapsable.collapsed iframe {
     height: 0;
+    transition: height var(--collapser-time) ease var(--collapser-time);
 }
 
 .gallery {
