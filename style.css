@@ -435,13 +435,13 @@ div.lateral-bar:nth-last-child(2) {
     margin-left: 20px;
 }
 
-#projects > .collapsable iframe  {
-    margin-left: 20px;
-}
-
 #projects > .collapsable.collapsed iframe {
     height: 0;
     transition: height var(--collapser-time) ease var(--collapser-time);
+}
+
+#projects a {
+    word-break: break-all;
 }
 
 .gallery {
