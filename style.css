@@ -20,6 +20,13 @@ html {
     line-height: var(--line-height);
 }
 
+html.light,
+html.light * {
+    --background-color: #eee8d5;
+    --content-background-color: #fdf6e3;
+    --text-color: #586e75;
+}
+
 body {
     height: 100%;
     position: relative;
@@ -550,6 +557,31 @@ div.lateral-bar:nth-last-child(2) {
 #lang-selector.selecting + #lang-selector-shade{
     visibility: initial;
     opacity: .5;
+}
+
+/* LIGHT */
+
+#light {
+    position: absolute;
+    right: 10px;
+    top: calc(50px + 1em);
+    cursor: pointer;
+    z-index: 2;
+    color: var(--background-color);
+    background-color: var(--title-color);
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+#light:after {
+    content: "💡";
+
 }
 
 /* IMAGE VIEWER*/

@@ -88,6 +88,15 @@ window.closeImgViewer = () => {
     imgViewer.classList.remove("open");
 }
 
+window.switchLight = () => {
+    if(document.documentElement.classList.contains("light")){
+        document.documentElement.classList.remove("light");
+    }
+    else {
+        document.documentElement.classList.add("light");
+    }
+}
+
 const startLangSelector = () => {
     for(let key in languageList){
         let option = document.createElement("div");
