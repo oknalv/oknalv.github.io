@@ -1,0 +1,24 @@
+.section-selector-element {
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.section-selector-element.selected {
+    color: var(--highlight-color);
+}
+
+.section-selector-element.selected::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 2px;
+    background-color: var(--highlight-color);
+    height: 100%;
+    top: 0;
+    left: 0;
+}

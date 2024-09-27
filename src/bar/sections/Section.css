@@ -1,0 +1,27 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.section-name {
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+.section-content {
+    flex-grow: 1;
+    position: relative;
+}
+
+.section-content:focus::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    content: " ";
+    box-shadow: inset 0px 0px 0px 1px var(--focus-color);
+    pointer-events: none;
+}

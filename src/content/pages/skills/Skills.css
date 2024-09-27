@@ -1,0 +1,9 @@
+.ski-title {
+    font-weight: bold;
+    color: var(--yellow);
+}
+
+
+.skills > svg text {
+    fill: var(--text-color)
+}

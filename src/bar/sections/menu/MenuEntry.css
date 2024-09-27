@@ -1,0 +1,21 @@
+.menu-entry {
+    cursor: pointer;
+    padding: 4px 10px;
+}
+
+.menu-entry:focus {
+    box-shadow: inset 0px 0px 0px 1px var(--focus-color);
+    background-color: var(--transparent-focus-color);
+}
+
+.menu-entry:hover {
+    background-color: var(--background-color3);
+}
+
+.menu-entry.selected {
+    background-color: var(--background-color4);
+}
+
+.menu-entry:focus:hover, .menu-entry:focus.selected {
+    background-color: var(--transparent-focus-color);
+}

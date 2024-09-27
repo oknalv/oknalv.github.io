@@ -1,0 +1,7 @@
+.bar {
+    height: 100%;
+    flex-basis: var(--bar-width);
+    flex-shrink: 0;
+    display: flex;
+    background-color: var(--background-color2);
+}

@@ -1,0 +1,6 @@
+.pages-container {
+    flex-grow: 1;
+    overflow: hidden;
+    display: flex;
+    height: 1px;
+}

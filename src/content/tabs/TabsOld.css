@@ -1,0 +1,34 @@
+.tabs-container {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.tabs {
+    background-color: var(--background-color2);
+    white-space: nowrap;
+}
+
+.tabs-scroll-bar {
+    overflow-x: hidden;
+    display: block;
+    position: sticky;
+    width: 100%;
+    height: 5px;
+    left: 0;
+    bottom: 5px;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.tabs-scroll-bar > div {
+    position: absolute;
+    height: 100%;
+    left: calc((100% - var(--scroll-width)) * var(--scroll-percent));
+    width: var(--scroll-width);
+    background-color: var(--transparent-white-color);
+}
+
+.tabs-container:hover > .tabs-scroll-bar {
+    opacity: .5;
+    transition-duration: .1s;
+}

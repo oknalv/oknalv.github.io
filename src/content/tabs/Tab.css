@@ -1,0 +1,65 @@
+.tab {
+    cursor: pointer;
+    padding: 10px;
+    background-color: var(--background-color3);
+    position: relative;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.tab:not(:first-child) {
+    border-left: 1px solid var(--background-color2);
+}
+
+.tab.selected {
+    background-color: var(--background-color1);
+}
+
+.tab.dragging-over-left::before,
+.tab.dragging-over-right::after {
+    display: block;
+    content: " ";
+    width: 2px;
+    position: absolute;
+    background-color: var(--highlight-color);
+    height: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.tab.dragging-over-left::before {
+    left: -1px;
+}
+
+.tab.dragging-over-right::after {
+    right: -2px;
+}
+
+.tab-close {
+    padding: 5px;
+    display: inline-flex;
+    width: 10px;
+    height: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.tab:not([class*="dragging-over-"]):hover > .tab-close,
+.tab.selected > .tab-close {
+    visibility: visible;
+}
+
+.tab-close:hover {
+    background-color: var(--background-color4);
+}
+
+.tab.selected > .tab-close:hover {
+    background-color: var(--background-color2);
+}
+
+.tab[class*="dragging-over-"]> .tab-close {
+    pointer-events: none;
+}

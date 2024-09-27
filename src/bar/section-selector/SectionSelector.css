@@ -1,0 +1,7 @@
+.section-selector {
+    background-color: var(--background-color3);
+    height: 100%;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+}

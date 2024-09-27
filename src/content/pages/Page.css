@@ -1,0 +1,65 @@
+.page-container {
+    flex-grow: 1;
+    overflow: hidden auto;
+    position: relative;
+    display: none;
+    width: 100%;
+    visibility: hidden;
+}
+
+.page-container.visible {
+    display: flex;
+}
+
+.page-container.show {
+    visibility: visible;
+}
+
+.page {
+    width: 100%;
+    align-self: flex-start;
+    overflow: hidden;
+    font-size: 1em;
+}
+
+.page-container::-webkit-scrollbar,
+.page-scroll::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+}
+
+.page-container::-webkit-scrollbar-thumb,
+.page-scroll::-webkit-scrollbar-thumb {
+    background-color: var(--transparent-white-color);
+    opacity: .5;
+}
+
+
+.page-container::-webkit-scrollbar-track,
+.page-scroll::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.page-container::-webkit-scrollbar-button:single-button,
+.page-scroll::-webkit-scrollbar-button:single-button {
+    display: none;
+}
+
+.page-scroll {
+    position: fixed;
+    bottom: 0;
+    height: 16px;
+    overflow-x: auto;
+    right: 15px
+}
+
+.page-number {
+    padding: 0 20px;
+    text-align: right;
+    color: var(--transparent-white-color)
+}
+
+.pages-font-height-ref {
+    position: absolute;
+    transform: translateY(-1000%);
+}

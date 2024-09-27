@@ -1,0 +1,46 @@
+.select {
+    background-color: var(--background-color4);
+    cursor: pointer;
+    position: relative;
+}
+
+.select-value {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select:focus > .select-value {
+    box-shadow: inset 0px 0px 0px 1px var(--focus-color);
+}
+
+.select-value-arrow {
+    padding: 5px;
+    display: inline-flex;
+    width: 10px;
+    height: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-options {
+    display: none;
+    box-shadow: inset 0px 0px 0px 1px var(--focus-color);
+    position: absolute;
+    background-color: var(--background-color4);
+    width: 100%;
+    z-index: 1;
+}
+
+.select:focus .select-options {
+    display: initial;
+}
+
+.select-option {
+    padding: 5px;
+}
+
+.select-option:hover {
+    background-color: var(--transparent-focus-color);
+}

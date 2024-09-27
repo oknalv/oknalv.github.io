@@ -1,0 +1,27 @@
+.edu-section {
+    font-weight: bold;
+}
+
+.edu-title {
+    font-weight: bold;
+    color: var(--green);
+}
+
+.edu-title2 {
+    padding-left: 2ch;
+    text-indent: -2ch;
+    font-weight: bold;
+    color: var(--green);
+}
+
+.edu-2 {
+    padding-left: 2ch;
+}
+
+.edu-years {
+    font-style: italic;
+}
+
+.edu-center {
+    font-weight: bold;
+}

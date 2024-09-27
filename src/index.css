@@ -1,0 +1,32 @@
+* {
+    --background-color1: #1e1e1e; 
+    --background-color2: #252525;
+    --background-color3: #333333;
+    --background-color4: #3c3c3c;
+    --transparent-white-color: #ffffff44;
+    --text-color: #a0a0a0;
+    --highlight-color: white;
+    --focus-color: #007acc;
+    --transparent-focus-color: #007acc44;
+    --red: #c88d75;
+    --yellow: #cbcb41;
+    --cyan: #9cdcfe;
+    --magenta: #c586c0;
+    --green: #6dbc89;
+    --blue: #569cd6;
+    --bar-width: 350px;
+}
+
+body, html, #root {
+    margin: 0;
+    height: 100%;
+    font-family: monospace;
+    color: var(--text-color);
+    font-size: 16px;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: OknalvIcons;
+    src: url('/public/OknalvIcons.ttf');
+}

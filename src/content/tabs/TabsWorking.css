@@ -1,0 +1,57 @@
+.tabs {
+    background-color: var(--background-color2);
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.tabs::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    transform: translateY(-5px);
+}
+
+.tabs::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.tabs:hover::-webkit-scrollbar-thumb {
+    background-color: var(--transparent-white-color);
+    opacity: .5;
+    transition-duration: .1s;
+}
+
+.tabs::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.tabs::-webkit-scrollbar-button:single-button {
+    display:none
+}
+
+
+.tabs-scroll-bar {
+    overflow-x: hidden;
+    display: block;
+    position: sticky;
+    width: 100%;
+    height: 5px;
+    left: 0;
+    bottom: 5px;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.tabs-scroll-bar > div {
+    position: absolute;
+    height: 100%;
+    left: calc((100% - var(--scroll-width)) * var(--scroll-percent));
+    width: var(--scroll-width);
+    background-color: var(--transparent-white-color);
+}
+
+.tabs-container:hover > .tabs-scroll-bar {
+    opacity: .5;
+    transition-duration: .1s;
+}
