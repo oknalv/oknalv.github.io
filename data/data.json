@@ -1,0 +1,163 @@
+{
+    "experience": [
+        {
+            "from": "2024/03",
+            "to": "present",
+            "title": "full_stack",
+            "place": "bnp",
+            "description": 1,
+            "images": ["bnp.jpeg"]
+        },
+        {
+            "from": "2021/03",
+            "to": "2024/03",
+            "title": "consultant_sw_engineer",
+            "place": "agap2",
+            "description": 1,
+            "images": ["agap2.jpeg", "bnp.jpeg"]
+        },
+        {
+            "from": "2020/11",
+            "to": "2021/03",
+            "title": "consultant_sw_engineer",
+            "place": "altran",
+            "description": 1,
+            "images": ["altran.jpeg", "klx.jpeg"]
+        },
+        {
+            "from": "2018/08",
+            "to": "2019/10",
+            "title": "consultant_sw_engineer",
+            "place": "akka",
+            "description": 3,
+            "note": true,
+            "images": ["akka.jpeg"]
+        },
+        {
+            "from": "2017/05",
+            "to": "2018/05",
+            "title": "sw_engineer",
+            "place": "imatia",
+            "description": 1,
+            "images": ["imatia.jpeg", "inditex.jpeg"]
+        },
+        {
+            "from": "2017/01",
+            "to": "2017/05",
+            "title": "junior",
+            "place": "plexus",
+            "description": 1,
+            "images": ["plexus.jpeg", "barcelo.jpeg"]
+        },
+        {
+            "from": "2016/08",
+            "to": "2016/12",
+            "title": "sw_engineer_rd",
+            "place": "redegal",
+            "description": 2,
+            "images": ["redegal.jpeg"]
+        },
+        {
+            "from": "2012/04",
+            "to": "2012/06",
+            "title": "intern",
+            "place": "bueu",
+            "description": 1,
+            "images": ["bueu.png"]
+        }
+    ],
+    "education": {
+        "formal": [
+            {
+                "title": "bachelor",
+                "years": "2012 - 2016",
+                "center": "uvigo"
+            },
+            {
+                "title": "associate",
+                "years": "2010 - 2012",
+                "center": "rodeira"
+            }
+        ],
+        "courses": [
+            {
+                "title": "angular",
+                "year": "2018",
+                "center": "vitae"
+            },
+            {
+                "title": "scrum",
+                "year": "2018",
+                "center": "vitae"
+            },
+            {
+                "title": "toeic",
+                "year": "2017",
+                "center": "multimedia"
+            }
+        ]
+    },
+    "skills": {
+        "technical": {
+            "programming": {
+                "front_end": ["HTML", "CSS", "JavaScript", "Typescript", "Angular", "RxJS", "SASS/SCSS", "Webpack", "React"],
+                "back_end": ["Java", "Python", "JavaScript", "Spring", "OpenAPI", "JMS", "JDBC"],
+                "SQL": ["MySQL", "Sybase ASE"],
+                "transversal": ["Git", "Linux Shell"]
+            },
+            "methodologies": ["Scrum", "Kanban"]
+        },
+        "languages": ["spanish", "galician", "english", "portuguese", "french", "polish", "finnish"]
+    },
+    "projects": [
+        {
+            "name": "oppi",
+            "page": "https://oknalv.github.io/oppi",
+            "code": [
+                "https://github.com/oknalv/oppi"
+            ],
+            "screenshots": 6,
+            "description": 3
+        },
+        {
+            "name": "piollo",
+            "themed": true,
+            "code": [
+                "https://github.com/oknalv/piollo"
+            ],
+            "description": 1
+        },
+        {
+            "name": "serkis",
+            "title": true,
+            "code": [
+                "https://github.com/oknalv/serkisplugin",
+                "https://github.com/oknalv/keypointextractor"
+            ],
+            "screenshots": 4,
+            "description": 2,
+            "youtube": "lC0uXMhHwX8"
+        },
+        {
+            "name": "grissonne",
+            "page": "https://oknalv.github.io/grissonne",
+            "code": [
+                "https://github.com/oknalv/grissonne"
+            ],
+            "description": 1
+        }
+    ],
+    "contact": [
+        {
+            "page": "linkedin",
+            "link": "https://www.linkedin.com/in/eliotblancolebrero/",
+            "name": "LinkedIn"
+        },
+        {
+            "page": "github",
+            "link": "https://github.com/oknalv",
+            "name": "GitHub",
+            "themed": true
+        }
+    ]
+}
