@@ -346,7 +346,6 @@ const startGalleries = () => {
     for(let gallery of document.getElementsByClassName("gallery")){
         for(let img of gallery.children){
             img.onclick = () => {
-                console.log(imgViewerImg, img);
                 imgViewerImg.src = img.src;
                 imgViewer.classList.add("open");
             }
