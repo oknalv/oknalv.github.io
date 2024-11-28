@@ -603,7 +603,6 @@ div.lateral-bar:nth-last-child(2) {
     bottom: 0;
     left: 0;
     right: 0;
-    overflow: scroll;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -614,4 +613,73 @@ div.lateral-bar:nth-last-child(2) {
     cursor: pointer;
     max-width: 100%;
     max-height: 100%;
+}
+
+
+/* CVSCODE MODAL*/
+
+#cvscode-modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity var(--switch-language-time) ease;
+}
+#cvscode-modal.open{
+    visibility: initial;
+    opacity: 1;
+}
+
+#cvscode-modal > div:first-child {
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--background-color);
+    opacity: .5;
+}
+#cvscode-modal > div:last-child {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cvscode-modal > div:last-child * {
+    color: var(--background-color);
+}
+
+#cvscode-modal > div:last-child > div {
+    color: var(--background-color);
+    max-width: 500px;
+    background-color: var(--title-color);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#cvscode-buttons > * {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    border: 3px solid var(--background-color);
+}
+
+#cvscode-buttons > *:first-child {
+    background-color: var(--background-color);
+    color: var(--title-color) !important;
+    text-decoration: none;
+    display: block;
 }

@@ -112,6 +112,7 @@
     "projects": [
         {
             "name": "oppi",
+            "logo": true,
             "page": "https://oknalv.github.io/oppi",
             "code": [
                 "https://github.com/oknalv/oppi"
@@ -121,6 +122,7 @@
         },
         {
             "name": "piollo",
+            "logo": true,
             "themed": true,
             "code": [
                 "https://github.com/oknalv/piollo"
@@ -129,6 +131,7 @@
         },
         {
             "name": "serkis",
+            "logo": true,
             "title": true,
             "code": [
                 "https://github.com/oknalv/serkisplugin",
@@ -140,9 +143,19 @@
         },
         {
             "name": "grissonne",
+            "logo": true,
             "page": "https://oknalv.github.io/grissonne",
             "code": [
                 "https://github.com/oknalv/grissonne"
+            ],
+            "description": 1
+        },
+        {
+            "name": "cvscode",
+            "title": true,
+            "page": "https://oknalv.github.io/cvscode",
+            "code": [
+                "https://github.com/oknalv/cvscode"
             ],
             "description": 1
         }

@@ -15,7 +15,8 @@
     "header": "Software developer",
     "hello": "Hello, my name is Eliot and welcome to my web page",
     "myself": "I am a Spanish software developer and I did this page to show my CV and my front end programming skills.",
-    "vscode": "As you can see, I tried to imitate the design, the layout and some of the functionalities of Visual Studio Code, one of the main IDEs I use at work as well as at home. Therefore, this web is not made to be open in a mobile device.",
+    "cvscode_technologies": "This page is made with React, i18next and Vite.",
+    "vscode": "As you can see, I tried to imitate the design, the layout and some of the functionalities of Visual Studio Code, one of the main IDEs I use at work as well as at home. Therefore, this web is not made to be opened in a mobile device.",
     "present": "Present",
     "note": "Note:",
     "full_stack": "Full Stack Developer",
@@ -84,5 +85,16 @@
     "serkis0": "This is my Bachelor's Degree final project. It consists in two subprojects: the first one, keypointextractor, is a program that extracts facial keypoints from a video and the second one, serkisplugin, is a plugin for Blender that uses those extracted keypoints to animate a 3D model of a face.",
     "serkis1": "For this project, I've used Python with the libraries dlib, OpenCV and Qt for keypointextractor and Python with the Blender API for serkisplugin.",
     "grissonne_header": "Web version of Carcassonne",
-    "grissonne0": "Web version of Carcassonne, a popular board game, made with the goal of learning React. It is meant to be played in big screens, it is not designed to be open in mobile devices."
+    "grissonne0": "Web version of Carcassonne, a popular board game, made with the goal of learning React. It is meant to be played in big screens, it is not designed to be opened in mobile devices.",
+    "new": "New!",
+    "cvscode_modal": "I've made a new version of my web CV imitating vscode style, it is called CVscode. It is designed to be opened in desktop browsers, so if you are on desktop, consider checking it out.",
+    "cvscode_open": "Go to CVscode",
+    "stay_here": "Stay here",
+    "go_to_cvscode": "Go to CVscode, the new version of this web",
+    "cvscode": "CVscode",
+    "cvscode_header": "My web CV in vscode style",
+    "cvscode0": "It is made in React and it has some of the components of the vscode, like the tabs and the file explorer. It is still in progress, I plan to add more things in the future.",
+    "warning": "Warning",
+    "warning_mobile": "This page is not designed to be displayed in a mobile device, it should be opened in a desktop browser.",
+    "go_mobile": "Go to mobile version"
 }

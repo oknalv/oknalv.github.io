@@ -1,4 +1,5 @@
 import i18n from './i18n/i18n.js';
+import isMobile from './isMobile.js';
 
 const data = await (await fetch("./data/data.json")).json();
 
@@ -167,10 +168,15 @@ const fillProjects = () => {
                 createElement("div", "video", null, [videoIframe])
             ]));
         }
+        const header = createElement("h2", null, null);
+        if(p.logo){
+            header.append(createImg(`img/${p.name}${p.themed ? "_light" : ""}.svg`));
+        }
+        if(p.title) {
+            header.append(createElement("span", null, `${p.name}`))
+        }
         projectsContainer.append(createElement("header", "collapser", null, [
-            createElement("h2", null, null, [
-                createImg(`img/${p.name}${p.themed ? "_light" : ""}.svg`)
-            ]),
+            header,
             createElement("h3", null, `${p.name}_header`)
         ]))
         projectsContainer.append(createElement("div", "collapsable collapsed", null, [
@@ -208,6 +214,7 @@ const sections = {
     "projects" : document.getElementById("projects"),
     "contact" : document.getElementById("contact")
 };
+const cvscodeModal = document.getElementById("cvscode-modal");
 const defaultLanguage = "en";
 
 const languageList = Object.keys(i18n).reduce((a, l) => {
@@ -284,6 +291,11 @@ window.closeImgViewer = () => {
     imgViewer.classList.remove("open");
 }
 
+window.closeCvscodeModal = () => {
+    localStorage.setItem("cvscodeModalOpened", true)
+    cvscodeModal.classList.remove("open");
+}
+
 window.switchLight = () => {
     if(document.documentElement.classList.contains("light")){
         document.documentElement.classList.remove("light");
@@ -353,6 +365,18 @@ const startGalleries = () => {
     }
 }
 
+const startCvscodeModal = () => {
+    if(!isMobile()) {
+        if(!localStorage.getItem("cvscodeModalOpened")) {
+            cvscodeModal.classList.add("open");
+        }
+    }
+    else {
+        document.getElementById("home-cvscode-link").remove();
+    }
+}
+
 startLangSelector();
 startCollapsers();
 startGalleries();
+startCvscodeModal();

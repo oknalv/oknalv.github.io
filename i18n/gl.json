@@ -15,6 +15,7 @@
     "header": "Desenvolvedor de software",
     "hello": "Ola, o meu nome é Eliot e douche a benvida á miña páxina web",
     "myself": "Son un desenvolvedor web español e fixen esta páxina para mostrar o meu CV e as miñas habilidades de programación de front end.",
+    "cvscode_technologies": "Esta páxina está feita con React, i18next e Vite.",
     "vscode": "Como podes ver, tentei imitar o deseño, a distribución e algunhas das funcionalidades de Visual Studio Code, un dos principais IDEs que uso en el traballo así como en casa. Por tanto, esta web non está feita para ser aberta nun dispositivo móbil.",
     "present": "Presente",
     "note": "Nota:",
@@ -84,5 +85,16 @@
     "serkis0": "Este é o meu proxecto de fin de grao. Consiste en dous subproxectos: o primeiro, keypointextractor, é un programa que extrae puntos clave faciais dun vídeo e o segundo, serkisplugin, é un plugin para Blender que usa os puntos extraídos para animar un modelo 3D dunha cara.",
     "serkis1": "Para este proxecto, utilicei Python coas bibliotecas dlib, OpenCV e Qt para keypointextractor e Python coa API de Blender para serkisplugin.",
     "grissonne_header": "Versión web do Carcassonne",
-    "grissonne0": "Versión web do Carcassonne, un popular xogo de mesa, feito co obxectivo de aprender React. Está pensado para ser xogado en pantallas grandes, non está deseñado para ser aberto en dispositivos móbiles."
+    "grissonne0": "Versión web do Carcassonne, un popular xogo de mesa, feito co obxectivo de aprender React. Está pensado para ser xogado en pantallas grandes, non está deseñado para ser aberto en dispositivos móbiles.",
+    "new": "Novo!",
+    "cvscode_modal": "Fixen unha nova versión do meu CV web imitando o estilo do vscode, chámase CVscode. Está deseñado para abrirse en navegadores de escritorio, así que se estás en escritorio, considera botarlle unha ollada.",
+    "cvscode_open": "Ir a CVscode",
+    "stay_here": "Quedar aquí",
+    "go_to_cvscode": "Ir a CVscode, a nova versión desta web",
+    "cvscode": "CVscode",
+    "cvscode_header": "O meu CV web no estilo do vscode",
+    "cvscode0": "Está feito en React e ten algúns dos componentes do vscode, como as pestanas ou o explorador de arquivos. Está aínda sen terminar, teño pensado engadir máis coisas no futuro.",
+    "warning": "Aviso",
+    "warning_mobile": "Esta páxina non foi deseñada para ser mostrada nun dispositivo móbil, devería abrirse nun navegador de escritorio.",
+    "go_mobile": "Ir á versión móbil"
 }

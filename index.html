@@ -18,6 +18,19 @@
                 <img />
             </div>
         </div>
+        <div id="cvscode-modal">
+            <div onclick="closeCvscodeModal()"></div>
+            <div>
+                <div>
+                    <h1 data-i18n="new"></h1>
+                    <div data-i18n="cvscode_modal"></div>
+                    <div id="cvscode-buttons">
+                        <a href="/cvscode" data-i18n="cvscode_open"></a>
+                        <div data-i18n="stay_here" onclick="closeCvscodeModal()"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <header id="header-home" class="home" onclick="navigate('home')">
             <div id="header">
                 <img class="me" src="img/me.png"/>
@@ -28,7 +41,10 @@
                     <h3 data-i18n="header"></h3>
                 </div>
             </div>
-            <section id="home" data-i18n="myself"></section>
+            <section id="home">
+                <div data-i18n="myself"></div>
+                <a id="home-cvscode-link" href="/cvscode" data-i18n="go_to_cvscode"></a>
+            </section>
         </header>
         <nav class="menu">
             <ul>
