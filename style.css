@@ -496,7 +496,7 @@ div.lateral-bar:nth-last-child(2) {
     right: 10px;
     top: 10px;
     cursor: pointer;
-    z-index: 2;
+    z-index: 3;
     color: var(--background-color);
     transition: transform var(--switch-language-time) ease, top var(--switch-language-time) ease, right var(--switch-language-time) ease;
 }
@@ -533,7 +533,7 @@ div.lateral-bar:nth-last-child(2) {
     left: 0;
     right: 0;
     background-color: var(--background-color);
-    z-index: 1;
+    z-index: 2;
     visibility: hidden;
     cursor: pointer;
     opacity: 0;
@@ -635,7 +635,6 @@ div.lateral-bar:nth-last-child(2) {
 }
 
 #cvscode-modal > div:first-child {
-    cursor: pointer;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -668,6 +667,7 @@ div.lateral-bar:nth-last-child(2) {
 }
 
 #cvscode-buttons > * {
+    cursor: pointer;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
