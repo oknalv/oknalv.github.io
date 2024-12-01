@@ -1,8 +1,8 @@
 {
     "experience": [
         {
-            "from": "2024/03",
-            "to": "present",
+            "from": "2024/02",
+            "to": "2024/09",
             "title": "full_stack",
             "place": "bnp",
             "description": 1,
@@ -10,7 +10,7 @@
         },
         {
             "from": "2021/03",
-            "to": "2024/03",
+            "to": "2024/02",
             "title": "consultant_sw_engineer",
             "place": "agap2",
             "description": 1,
