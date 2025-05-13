@@ -75,7 +75,7 @@
     "screenshots": "Capturas de pantalla",
     "video": "Vídeo",
     "oppi_header": "App web para practicar a flexión de palabras en finés",
-    "oppi0": "Oppi é unha web app que fixen para mellorar a miña experiencia de aprendizaxe da flexión das palabras en finés. Está desenvolvida en Angular e usa a IndexedDB para almacenar datos.",
+    "oppi0": "Oppi é unha app web que fixen para mellorar a miña experiencia de aprendizaxe da flexión das palabras en finés. Está desenvolvida en Angular e usa a IndexedDB para almacenar datos.",
     "oppi1": "O funcionamento é simple: primeiro búscase unha palabra no input de busca e despois a app xera unha táboa que hai que encher. Despois de facelo, prémese o botón de chequear e a app resalta as palabras que se meteron ben e mal con cores diferentes. Tamén ten a opción de ver a flexión da palabra directamente e a opción de obter unha palabra aleatoria. Ten un tutorial explicando mellor como funciona dentro da app que se mostra a primeira vez que se usa.",
     "oppi2": "A fixen PWA para que poida terse no teléfono coma se fose unha app nativa. Como non ten back end para traer as palabras (está hosteado en GitHub Pages), necesita ter todas as palabras de antemán para funcionar. Para facer iso, a primeira vez que se carga no navegador, báixase un ficheiro con ó redor de 58000 palabras que extraín do Wiktionary empregando un script en Python, e garda esas palabras na IndexedDB, entón non ten que baixalas de novo cada vez que se usa. Tendo isto en conta, a primeira vez que carga necesita varios segundos para facelo, polo que hai que ser paciente.",
     "piollo_header": "Cliente web para o módulo da cámara da Raspberry Pi",
@@ -96,5 +96,10 @@
     "cvscode0": "Está feito en React e ten algúns dos componentes do vscode, como as pestanas ou o explorador de arquivos. Está aínda sen terminar, teño pensado engadir máis coisas no futuro.",
     "warning": "Aviso",
     "warning_mobile": "Esta páxina non foi deseñada para ser mostrada nun dispositivo móbil, devería abrirse nun navegador de escritorio.",
-    "go_mobile": "Ir á versión móbil"
+    "go_mobile": "Ir á versión móbil",
+    "gym": "Gym",
+    "gym_header": "App web para levar o seguimento de rutinas de entrenamento",
+    "gym0": "Gym é unha app web que fixen para levar o seguimento da miña rutina de entrenamento. Está desenvolvida en Angular e usa a IndexedDB para almacenar datos e o service worker para controlar temporizadores e notificacións.",
+    "gym1": "Podes definir entrenamentos con exercicios e executalos, con temporizadores para o tempo de descanso. Ten tamén un cronómetro e un temporizador global.",
+    "gym2": "Está deseñada para ser usada en dispositivos móbiles e pódese instalar como PWA."
 }

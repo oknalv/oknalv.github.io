@@ -100,23 +100,62 @@
     "skills": {
         "technical": {
             "programming": {
-                "front_end": ["HTML", "CSS", "JavaScript", "Typescript", "Angular", "RxJS", "SASS/SCSS", "Webpack", "React"],
-                "back_end": ["Java", "Python", "JavaScript", "Spring", "OpenAPI", "JMS", "JDBC"],
+                "front_end": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "Typescript",
+                    "Angular",
+                    "RxJS",
+                    "SASS/SCSS",
+                    "Webpack",
+                    "React"
+                ],
+                "back_end": [
+                    "Java",
+                    "Python",
+                    "JavaScript",
+                    "Spring",
+                    "OpenAPI",
+                    "JMS",
+                    "JDBC"
+                ],
                 "SQL": ["MySQL", "Sybase ASE"],
                 "transversal": ["Git", "Linux Shell"]
             },
             "methodologies": ["Scrum", "Kanban"]
         },
-        "languages": ["spanish", "galician", "english", "portuguese", "french", "polish", "finnish"]
+        "languages": [
+            "spanish",
+            "galician",
+            "english",
+            "portuguese",
+            "french",
+            "polish",
+            "finnish"
+        ]
     },
     "projects": [
+        {
+            "name": "gym",
+            "logo": true,
+            "title": true,
+            "page": "https://oknalv.github.io/gym",
+            "code": ["https://github.com/oknalv/gym"],
+            "description": 3
+        },
+        {
+            "name": "grissonne",
+            "logo": true,
+            "page": "https://oknalv.github.io/grissonne",
+            "code": ["https://github.com/oknalv/grissonne"],
+            "description": 1
+        },
         {
             "name": "oppi",
             "logo": true,
             "page": "https://oknalv.github.io/oppi",
-            "code": [
-                "https://github.com/oknalv/oppi"
-            ],
+            "code": ["https://github.com/oknalv/oppi"],
             "screenshots": 6,
             "description": 3
         },
@@ -124,9 +163,7 @@
             "name": "piollo",
             "logo": true,
             "themed": true,
-            "code": [
-                "https://github.com/oknalv/piollo"
-            ],
+            "code": ["https://github.com/oknalv/piollo"],
             "description": 1
         },
         {
@@ -142,21 +179,10 @@
             "youtube": "lC0uXMhHwX8"
         },
         {
-            "name": "grissonne",
-            "logo": true,
-            "page": "https://oknalv.github.io/grissonne",
-            "code": [
-                "https://github.com/oknalv/grissonne"
-            ],
-            "description": 1
-        },
-        {
             "name": "cvscode",
             "title": true,
             "page": "https://oknalv.github.io/cvscode",
-            "code": [
-                "https://github.com/oknalv/cvscode"
-            ],
+            "code": ["https://github.com/oknalv/cvscode"],
             "description": 1
         }
     ],

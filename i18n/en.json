@@ -96,5 +96,10 @@
     "cvscode0": "It is made in React and it has some of the components of the vscode, like the tabs and the file explorer. It is still in progress, I plan to add more things in the future.",
     "warning": "Warning",
     "warning_mobile": "This page is not designed to be displayed in a mobile device, it should be opened in a desktop browser.",
-    "go_mobile": "Go to mobile version"
+    "go_mobile": "Go to mobile version",
+    "gym": "Gym",
+    "gym_header": "Web app for keeping track of workout routines",
+    "gym0": "Gym is a web app that I made to keep track of my workout routine. It is developed in Angular and it uses the IndexedDB to store data and the service worker to control timers and notifications.",
+    "gym1": "You can define workouts with exercises and execute them, with timers for the resting time. It also has a stopwatch and a global timer.",
+    "gym2": "It is designed to be used on mobile devices and it can be installed as PWA."
 }
