@@ -99,7 +99,7 @@
     "go_mobile": "Go to mobile version",
     "gym": "Gym",
     "gym_header": "Web app for keeping track of workout routines",
-    "gym0": "Gym is a web app that I made to keep track of my workout routine. It is developed in Angular and it uses the IndexedDB to store data and the service worker to control timers and notifications.",
+    "gym0": "Gym is a web app that I made to keep track of my workout routine. It is developed in Angular.",
     "gym1": "You can define workouts with exercises and execute them, with timers for the resting time. It also has a stopwatch and a global timer.",
     "gym2": "It is designed to be used on mobile devices and it can be installed as PWA."
 }

@@ -99,7 +99,7 @@
     "go_mobile": "Ir a la versión móvil",
     "gym": "Gym",
     "gym_header": "App web para llevar el seguimiento de rutinas de entrenamiento",
-    "gym0": "Gym es una app web que hice para llevar el seguimiento de mi rutina de entrenamiento. Está desarrollada en Angular y usa la IndexedDB para almacenar datos y el service worker para controlar temporizadores y notificaciones.",
+    "gym0": "Gym es una app web que hice para llevar el seguimiento de mi rutina de entrenamiento. Está desarrollada en Angular y usa la IndexedDB para almacenar datos.",
     "gym1": "Puedes definir entrenamientos con ejercicios y ejecutarlos, con temporizadores para el tiempo de descanso. Tiene también un cronómetro y un temporizador global.",
     "gym2": "Está diseñada para ser usada en dispositivos móviles y se puede instalar como PWA."
 }
